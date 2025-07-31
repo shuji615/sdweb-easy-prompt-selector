@@ -38,6 +38,19 @@ class EPSElementBuilder {
   static openButton({ onClick }) {
     const button = EPSElementBuilder.baseButton('🔯タグを選択', { size: 'sm', color: 'secondary' })
     button.classList.add('easy_prompt_selector_button')
+
+    // ボタンの高さ調整: 縦長になるのを防ぐ
+    // reloadButton (size='sm') のスタイルに近づけるため、padding と line-height を調整
+    button.style.height = 'auto'; // 高さはpaddingに依存させる
+    // 一般的な 'sm' ボタンのパディング (値はGradioのバージョンやテーマで微調整が必要な場合があります)
+    // 上下のパディングを小さくし、行の高さを標準にすることで、ボタンが縦に伸びるのを抑制します。
+    button.style.paddingTop = 'var(--spacing-sm, 4px)';
+    button.style.paddingBottom = 'var(--spacing-sm, 4px)';
+    // 左右のパディングはgr-button-smクラスに任せるか、必要なら指定
+    // button.style.paddingLeft = 'var(--spacing-md, 8px)';
+    // button.style.paddingRight = 'var(--spacing-md, 8px)';
+    button.style.lineHeight = 'var(--line-sm, 1.5)'; // または 'normal'
+
     button.addEventListener('click', onClick)
 
     return button
@@ -284,19 +297,97 @@ class EasyPromptSelector {
     node.style.display = visible ? 'flex' : 'none'
   }
 
+  // EasyPromptSelector クラス内の addTag メソッドを以下に置き換えます。
   addTag(tag, toNegative = false) {
-    const id = toNegative ? 'txt2img_neg_prompt' : 'txt2img_prompt'
-    const textarea = gradioApp().getElementById(id).querySelector('textarea')
+    const id = toNegative ? 'txt2img_neg_prompt' : 'txt2img_prompt';
+    const textarea = gradioApp().getElementById(id).querySelector('textarea');
 
-    if (textarea.value.trim() === '') {
-      textarea.value = tag
-    } else if (textarea.value.trim().endsWith(',')) {
-      textarea.value += ' ' + tag
-    } else {
-      textarea.value += ', ' + tag
+    if (!textarea) {
+      console.error(`Textarea with id ${id} not found.`);
+      return;
     }
 
-    updateInput(textarea)
+    const currentText = textarea.value;
+    const selectionStart = textarea.selectionStart; // 選択範囲の開始位置またはカーソル位置
+    const selectionEnd = textarea.selectionEnd;     // 選択範囲の終了位置またはカーソル位置
+
+    // 挿入するタグの前後にスペースやカンマを自動で付与するかどうかを決定する
+    // ここでは、元のロジックに近い形で、ある程度の自動調整を試みます。
+    // ただし、カーソル位置挿入では完璧な自動調整は難しいため、シンプルな挿入を基本とします。
+    // ユーザーの利便性を考え、タグの前後にスペースがない場合、半角スペースを一つ入れることを基本とする。
+    // カンマはユーザーが意識して入力することを推奨。
+
+    let tagToInsert = tag;
+    let finalCursorPos = selectionStart + tagToInsert.length;
+
+    // 選択範囲の前の文字
+    const charBefore = selectionStart > 0 ? currentText[selectionStart - 1] : null;
+    // 選択範囲の後の文字
+    const charAfter = selectionEnd < currentText.length ? currentText[selectionEnd] : null;
+
+    // 前にスペースが必要か (テキストの先頭でなく、かつ直前がスペースやカンマでない場合)
+    let needsSpaceBefore = selectionStart > 0 && charBefore !== ' ' && charBefore !== ',';
+    // 後にスペースが必要か (テキストの末尾でなく、かつ直後がスペースやカンマでない場合)
+    let needsSpaceAfter = selectionEnd < currentText.length && charAfter !== ' ' && charAfter !== ',';
+
+
+    // 既存のテキストが空、またはカーソルがテキストの先頭かつ末尾（つまり空で挿入）の場合は、タグのみ
+    if (currentText.trim() === '' && selectionStart === 0 && selectionEnd === currentText.length) {
+        // テキストエリアが完全に空で、そこに挿入する場合
+        tagToInsert = tag;
+    } else {
+        // ある程度賢いスペースの挿入を試みる
+        // ただし、複雑になりすぎないように、基本は「タグの前後が文字ならスペースを入れる」程度に留める
+        let prefix = "";
+        let suffix = "";
+
+        if (needsSpaceBefore) {
+            prefix = ", ";
+        }
+        if (needsSpaceAfter && tagToInsert.trim() !== "") { // タグ自体が空白文字のみの場合は後ろにスペース不要
+            suffix = ", ";
+        }
+        
+        // もしカーソルが単語の途中にあれば、スペースは不要な場合が多い
+        // 例: wo|rd に tag を挿入 -> wotagrd (スペースなし)
+        // この判定は複雑なので、今回はシンプルに「タグの前後に非空白文字があればスペースを付与する」方針でいく
+        // より洗練されたロジックが必要な場合は、さらに詳細な条件分岐が必要
+
+        // 既存のロジック（末尾追加時のカンマ付与など）をカーソル位置挿入にそのまま適用するのは難しい。
+        // ここでは、タグの前にスペース、タグの後にスペースを基本とする。
+        // カンマはユーザーが手動で入れることを期待する。
+
+        if (selectionStart > 0 && currentText[selectionStart-1] !== ' ' && currentText[selectionStart-1] !== ',') {
+            tagToInsert = prefix + tagToInsert;
+        }
+        // タグの後ろのスペースは、タグ自体がスペースで終わっていない場合、かつ、カーソルの後ろがスペースやカンマでない場合
+        if (tag.trim() !== "" && !tag.endsWith(' ') && selectionEnd < currentText.length && currentText[selectionEnd] !== ' ' && currentText[selectionEnd] !== ',') {
+            tagToInsert = tagToInsert + suffix;
+        } else if (tag.trim() !== "" && !tag.endsWith(' ') && selectionEnd === currentText.length) {
+            // カーソルが末尾の場合は、後ろにスペースを追加しても良いことが多い
+            tagToInsert = tagToInsert + suffix;
+        }
+
+
+        // もし、挿入するタグが既に前後に適切なスペースやカンマを含んでいる場合は、
+        // 上記の自動スペース付与は過剰になる可能性がある。
+        // そのため、タグの内容に応じて調整が必要になる場合がある。
+        // ここでは、汎用的なケースとして、上記のようなスペース処理を行う。
+    }
+
+
+    // 選択範囲を置き換えるか、カーソル位置に挿入
+    textarea.value = currentText.substring(0, selectionStart) +
+                     tagToInsert +
+                     currentText.substring(selectionEnd);
+
+    // 挿入後、カーソルを挿入されたタグの末尾に移動
+    finalCursorPos = selectionStart + tagToInsert.length;
+    textarea.selectionStart = finalCursorPos;
+    textarea.selectionEnd = finalCursorPos;
+
+    updateInput(textarea); // Gradioに更新を通知
+    textarea.focus();      // テキストエリアにフォーカスを戻す（操作性を良くするため）
   }
 
   removeTag(tag, toNegative = false) {
@@ -315,28 +406,131 @@ class EasyPromptSelector {
 }
 
 onUiLoaded(async () => {
-  yaml = window.jsyaml
-  const easyPromptSelector = new EasyPromptSelector(yaml, gradioApp())
+  yaml = window.jsyaml;
+  const easyPromptSelector = new EasyPromptSelector(yaml, gradioApp());
 
-  const button = EPSElementBuilder.openButton({
+  const openTagSelectorButton = EPSElementBuilder.openButton({
     onClick: () => {
-      const tagArea = gradioApp().querySelector(`#${easyPromptSelector.AREA_ID}`)
-      easyPromptSelector.changeVisibility(tagArea, easyPromptSelector.visible = !easyPromptSelector.visible)
+      const tagArea = gradioApp().querySelector(`#${easyPromptSelector.AREA_ID}`);
+      easyPromptSelector.changeVisibility(tagArea, easyPromptSelector.visible = !easyPromptSelector.visible);
     }
-  })
+  });
 
-  const reloadButton = gradioApp().getElementById('easy_prompt_selector_reload_button')
-  reloadButton.addEventListener('click', async () => {
-    await easyPromptSelector.init()
-  })
+  const reloadButton = gradioApp().getElementById('easy_prompt_selector_reload_button');
+  const selectionModeRadio = gradioApp().getElementById('easy_prompt_selector_selection_mode_radio');
+  const combinationCountHTML = gradioApp().getElementById('easy_prompt_selector_combination_count_html');
+  const promptInputGradioElement = gradioApp().getElementById('eps_prompt_textbox_input'); // 隠しテキストボックスを取得
 
-  const txt2imgActionColumn = gradioApp().getElementById('txt2img_actions_column')
-  const container = document.createElement('div')
-  container.classList.add('easy_prompt_selector_container')
-  container.appendChild(button)
-  container.appendChild(reloadButton)
+  if (reloadButton) {
+    reloadButton.addEventListener('click', async () => {
+      // ★★★ デバッグ用: リロードボタンクリック時の隠しテキストボックスの値をログに出力 ★★★
+      if (promptInputGradioElement) {
+          console.log("EPS_JS_DEBUG: Reload button clicked. Initial value of eps_prompt_textbox_input:", promptInputGradioElement.value);
+      } else {
+          console.error("EPS_JS_DEBUG: eps_prompt_textbox_input element not found at click time!");
+      }
+      // ★★★ デバッグここまで ★★★
 
-  txt2imgActionColumn.appendChild(container)
+      // メインのプロンプトテキストエリアから最新の値を取得して隠しテキストボックスに設定する
+      // この処理は Python 側で Gradio の inputs を介して値が取得される前に行う必要がある。
+      // Gradio の click イベントの inputs は、イベント発火時のコンポーネントの値を参照するため、
+      // この JavaScript の click リスナー内で値を更新しても、Python 側の click ハンドラが
+      // 古い値を見てしまう可能性がある。
+      // より確実なのは、Python 側の reload_all_action 関数が呼び出される *直前* に
+      // この値がセットされていること。
+      // Gradio の仕組み上、JS のイベントリスナーと Python の Gradio イベントハンドラは
+      // 実行順序が必ずしも保証されない場合がある。
 
-  await easyPromptSelector.init()
-})
+      // 一旦、easyPromptSelector.init() の前にプロンプト更新を試みる
+      const mainPromptTextarea = gradioApp().querySelector("#txt2img_prompt textarea") || gradioApp().querySelector("#img2img_prompt textarea");
+      if (mainPromptTextarea && promptInputGradioElement) {
+          promptInputGradioElement.value = mainPromptTextarea.value;
+          // input イベントを発行して Gradio 側にも変更を通知
+          // これが Python 側の .input() リスナーをトリガーし、
+          // さらに Gradio が管理するコンポーネントの状態を更新するはず。
+          promptInputGradioElement.dispatchEvent(new Event('input', { bubbles: true, cancelable: true }));
+          console.log("EPS_JS_DEBUG: Updated eps_prompt_textbox_input with value from main textarea:", promptInputGradioElement.value);
+      } else {
+          if (!mainPromptTextarea) console.error("EPS_JS_DEBUG: Main prompt textarea not found for update!");
+          if (!promptInputGradioElement) console.error("EPS_JS_DEBUG: eps_prompt_textbox_input not found for update!");
+      }
+      
+      // easyPromptSelector.init() はタグファイルの再読み込みなどを行う
+      // プロンプトテキストの更新とは直接関係ないが、リロード処理の一部
+      await easyPromptSelector.init(); 
+      
+      // 注意: この JavaScript の click リスナーが完了した後、Gradio のイベントキューを介して
+      // Python 側の reload_button.click(...) に登録された関数が呼び出される。
+      // その際、inputs=[..., prompt_textbox_input] で参照される値は、
+      // 上記の dispatchEvent('input') によって Gradio 側で更新された後の値になることを期待する。
+    });
+  } else {
+    console.error("EasyPromptSelector: Reload button (easy_prompt_selector_reload_button) not found!");
+  }
+
+
+  const txt2imgActionColumn = gradioApp().getElementById('txt2img_actions_column');
+  
+  const mainUiContainer = document.createElement('div');
+  mainUiContainer.classList.add('easy_prompt_selector_main_ui_container');
+  mainUiContainer.style.display = 'flex';
+  mainUiContainer.style.flexDirection = 'column';
+  mainUiContainer.style.gap = 'var(--spacing-md, 8px)';
+
+  const row1 = document.createElement('div');
+  row1.style.display = 'flex';
+  row1.style.alignItems = 'center';
+  row1.style.gap = 'var(--spacing-md, 8px)';
+
+  row1.appendChild(openTagSelectorButton);
+  if (reloadButton) { // reloadButton が存在する場合のみ追加
+    row1.appendChild(reloadButton);
+  }
+  
+  mainUiContainer.appendChild(row1);
+
+  if (selectionModeRadio) {
+    mainUiContainer.appendChild(selectionModeRadio);
+  } else {
+    console.warn("EasyPromptSelector: selectionModeRadio element not found.");
+  }
+
+  if (combinationCountHTML) {
+    mainUiContainer.appendChild(combinationCountHTML);
+  } else {
+    console.warn("EasyPromptSelector: combinationCountHTML element not found.");
+  }
+  
+  if (txt2imgActionColumn) {
+    txt2imgActionColumn.appendChild(mainUiContainer);
+  } else {
+    console.error("EasyPromptSelector: txt2img_actions_column not found! UI cannot be appended.");
+  }
+  
+
+  await easyPromptSelector.init(); // 初期ロード
+
+  // メインプロンプトエリアの変更を監視し、隠しテキストボックスに値を同期する
+  const mainPromptTextareaForSync = gradioApp().querySelector("#txt2img_prompt textarea") || gradioApp().querySelector("#img2img_prompt textarea");
+  if (mainPromptTextareaForSync && promptInputGradioElement) {
+      mainPromptTextareaForSync.addEventListener('input', () => {
+          promptInputGradioElement.value = mainPromptTextareaForSync.value;
+          // input イベントを発行して Gradio 側 (Python の .input() リスナー) にも変更を通知
+          promptInputGradioElement.dispatchEvent(new Event('input', { bubbles: true, cancelable: true }));
+          
+          // combinationCountHTML の表示を "Calculating..." に戻す処理はここでも良いが、
+          // Python側の .input() リスナーがHTMLを更新するので、二重管理になる可能性。
+          // JavaScript側で直接 "Calculating..." にするなら、Python側でのHTML更新を調整する必要がある。
+          // if (combinationCountHTML) {
+          //   combinationCountHTML.innerHTML = "Combinations: Calculating...";
+          // }
+      });
+      // 初期ロード時にも一度値を同期しておく
+      promptInputGradioElement.value = mainPromptTextareaForSync.value;
+      promptInputGradioElement.dispatchEvent(new Event('input', { bubbles: true, cancelable: true }));
+
+  } else {
+      if (!mainPromptTextareaForSync) console.error("EPS_JS_DEBUG: Main prompt textarea not found for sync event listener!");
+      if (!promptInputGradioElement) console.error("EPS_JS_DEBUG: eps_prompt_textbox_input not found for sync event listener!");
+  }
+});
