@@ -1,0 +1,518 @@
+フブキ:
+  base:
+    (shirakami fubuki:1.46), 
+    (animal ears:1.21), (green eyes:1.21), (white hair:1.21), (single side braid:1.2), (ahoge:1.2), 
+    (fox tail), 
+    (medium breasts:1.2)
+
+あくあ:
+  base: 
+    (minato aqua:1.46), 
+    (purple hair:1.2), (french braid:1.2), (light blue inner hair:1.2), light blue mesh, (long hair:1.2), (pink eyes:1.2), (child-faced:1.2), 
+    (medium breasts:1.4)
+  negative: 
+    (censor),monochrome,blurry, lowres, watermark, detached sleeves, puffy sleeves, sleeves, long body, bad anatomy, loli(censor),monochrome,blurry, lowres, watermark, detached sleeves, puffy sleeves, sleeves, long body, bad anatomy, loli, color nail
+  # https://civitai.com/models/463447/pony-minato-aqua-hololive
+  pony LoRA:
+    メイド服:
+      <lora:Minato_Aqua_V1:0.5>, 
+      Minato_Aqua, (purple hair:1.2), twintails, light blue inner hair, light blue mesh, drill hair, long hair, 
+      pink eyes, big breast, (blush:1.2), 
+      maid headdress, cleavage, short sleeves, blue bow, wrist cuffs
+    全裸:
+      <lora:Minato_Aqua_V1:0.5>, 
+      Minato_Aqua, (purple hair:1.2), twintails, light blue inner hair, light blue mesh, drill hair, long hair, 
+      pink eyes, big breast, (blush:1.2), 
+      (completely nude:1.2)
+
+マリン:
+  # https://civitai.com/models/319233/houshou-marine-xl-8-outfits-hololive
+  LoRA1:
+    default: marine, hair ribbon, red ribbon, red eyes, yellow eyes
+    outfit1: marine_pirate, hair ribbon, red ascot, red skirt, belt, leotard under clothes, black leotard, black thighhighs, black coat, pirate hat, eyepatch, red eyes
+    outfit2: marine_gothic, twintails, long hair, red dress, frills, detached sleeves, black gloves, corset, black ribbon, black bowtie, white thighhighs, red eyes, yellow eyes
+    outfit3: marine_kimono, japanese clothes, fur trim, wide sleeves, pelvic curtain, cleavage, hair bow, white bow, hair flower, ponytail, thighhighs, red eyes, yellow eyes
+    outfit4: marine_beach, long hair, red bikini, white shorts, jewelry, black jacket, baseball cap, heart-shaped eyewear, red eyes, yellow eyes
+    outfit5: marine_officer, black leotard, black pantyhose, black gloves, streaked hair, thigh boots, red coat, shako cap, red eyes, yellow eyes
+    outfit6: marine_beret, collared shirt, sleeveless, high-waist skirt, pantyhose, blue jacket, fur trim, fingerless gloves, id card, red eyes, yellow eyes
+    outfit7: marine_nun, habit, blue dress, underboob, breast curtains, pelvic curtain, garter belt, white thighhighs, own hands together, red eyes, yellow eyes
+    outfit8: marine_idol, hololive idol uniform, white bow, white gloves, red ribbon, red bowtie, layered skirt, navel cutout, red eyes, yellow eyes
+
+さかまた:
+  # https://civitai.com/models/352842/sakamata-chloe-for-ponyxl-all-outfits
+  LoRA1:
+    全裸:
+      <lora:Sakamata_Chloe_for_PonyXL:0.5>,
+      sakamata chloe hololive, 
+      grey hair, hair between eyes, red eyes, medium hair,
+      CHLOE_NUDE, 
+      completely nude, 
+    盗賊:
+      <lora:Sakamata_Chloe_for_PonyXL:0.5>,
+      sakamata chloe hololive, 
+      grey hair, hair between eyes, red eyes, medium hair,
+      CHLOE_THIEF
+      gloves, fang, hood, hood up, off shoulder, skin fang, open clothes, animal hood, 
+      red skirt, pleated skirt, open jacket, black jacket, long sleeves, 
+      
+  negative:
+    (censor),monochrome,blurry, lowres, watermark, detached sleeves, puffy sleeves, sleeves, long body, bad anatomy, loli,
+
+
+hololive_all:
+  RoLA:  <lora:hololive_allmems_lora_v2:0.5>
+  ときのそら:
+    服装1: "tokino sora, tokino sora (1st costume), long hair, brown hair, star hair ornament, cropped shirt, blue vest, navel, sleeveless shirt, hair flaps, red ribbon, diamond hair ornament, white shirt, hair ribbon, blue skirt, midriff, cropped vest, pleated skirt, miniskirt, wrist cuffs, blue thighhighs, waist cape, collared shirt, bare shoulders, neck ribbon, crop top, hairclip, purple eyes, thigh ribbon"
+    誕生日2022: "tokino sora, tokino sora birthday 2022, brown hair, star hair ornament, long hair, hair ribbon, blue eyes, bare shoulders, white dress, side ponytail, idol, hairclip, diamond hair ornament, white ribbon, hair flaps, half gloves, bow, detached collar"
+    ストリートウェア: "tokino sora, tokino sora streetwear, brown hair, long hair, brown eyes, baseball cap, two-tone hoodie, black headwear, white hoodie, black hoodie, shorts, o-ring choker, long sleeves, socks, black choker, black footwear"
+    カジュアル: "tokino sora, tokino sora casual, star hair ornament, brown hair, hair ribbon, brown eyes, long hair, side ponytail, hair flaps, pink shirt, belt, wavy hair, hairclip, long sleeves, pink ribbon, diamond hair ornament, frilled camisole, bracelet, long skirt, frills, brown skirt, puffy sleeves, blouse"
+    hololive_summer_2019: "tokino sora, tokino sora hololive summer 2019, long hair, blue eyes, hair ribbon, brown hair, navel, star hair ornament, pleated skirt, hairclip, hair flaps, sailor bikini, blue skirt, white sailor collar, miniskirt, white bikini, red ribbon"
+  ロボ子さん:
+    服装1: "roboco-san, roboco-san 1st costume, mechanical legs, brown hair, mechanical arms, navel, camouflage jacket, short hair, android, glasses, black-framed eyewear, grey jacket, extra ears, short sleeves, animal ear fluff, gloves, yellow eyes, jumping, gradient hair, cat ears, brown eyes, kemonomimi mode"
+    ダークブライド: "roboco-san, roboco-san dark bride, mechanical legs, brown hair, mechanical arms, android, long hair, yellow eyes, gradient hair, dress, brown eyes"
+    パーカー: "roboco-san, roboco-san hoodie, mechanical legs, camouflage, brown hair, eyes visible through hair, pink hoodie, android, yellow eyes, mechanical arms, hood down, short hair, long sleeves, gradient hair"
+    ハイスペックTシャツ: "roboco-san, roboco-san high spec t-shirt, mechanical legs, brown hair, cat ears, glasses, cat tail, black-framed eyewear, mechanical arms, animal ear fluff, kemonomimi mode, yellow eyes, very long hair, android, white shirt, short sleeves, gradient hair, t-shirt, brown eyes, extra ears"
+    正月: "roboco-san, roboco-san new year, glasses, brown hair, yellow eyes, obi, android, scarf, hair bow, gloves, black-framed eyewear, short hair, mechanical arms, multicolored hair, red bow, frills, red kimono, short kimono, long sleeves, round eyewear, wide sleeves"
+  さくらみこ:
+    服装1: "sakura miko, sakura miko 1st costume, green eyes, hair bell, ahoge, detached sleeves, x hair ornament, pink hair, thigh strap, jingle bell, long hair, bridal garter, bow, cherry blossom print, japanese clothes, hairclip, medium hair"
+    学校ワーク: "sakura miko, sakura miko school work, green eyes, pink hair, ahoge, short shorts, thigh strap, neck bell, jingle bell, wide sleeves, hairclip, shirt, red shorts, two side up, night, navel, long sleeves, detached sleeves, red ribbon, hair ribbon"
+    制服: "sakura miko, sakura miko school uniform, green eyes, pink hair, bandaid hair ornament, ahoge, white thighhighs, white beret, white shirt, white sailor collar, plaid skirt, pink skirt, pleated skirt, short sleeves, cat hair ornament, neck ribbon, serafuku, short hair, red ribbon, hairclip, miniskirt"
+    カジュアル: "sakura miko, sakura miko casual, green eyes, long hair, ahoge, pink hair, red skirt, white shirt, long sleeves, black thighhighs, black headwear, collared shirt, animal hat, hairclip, jingle bell, beret, neck bell, detached sleeves, corset, bowtie, low twintails, bare shoulders, frilled skirt, red bow, flower"
+    ストリート: "sakura miko, sakura miko street, green eyes, pink hair, hat, long hair, ahoge, blue skirt, hairclip, long sleeves, white shirt, bag, frilled skirt, ribbon, braid, corset, brown headwear, lace-up boots, black bow"
+    正月: "sakura miko, sakura miko new year, green eyes, pink hair, detached sleeves, ahoge, pom pom hair ornament, long hair, white sleeves, white skirt, frilled sleeves, twintails, hair rings, hairclip, leg ribbon, bag, zoom layer, maid headdress, leg up, thigh strap, white shirt, white dress"
+  星街すいせい:
+    服装1: "hoshimachi suisei, hoshimachi suisei 1st costume, blue hair, blue eyes, plaid headwear, black gloves, beret, grey headwear, side ponytail, plaid jacket, blue skirt, grey jacket, medium hair, sidelocks, plaid skirt"
+    stellar_into_the_galaxy: "hoshimachi suisei, hoshimachi suisei stellar into the galaxy, single glove, mini crown, juliet sleeves, star hair ornament, puffy sleeves, hair ribbon, single thighhigh, blue shorts, o-ring thigh strap"
+    制服: "hoshimachi suisei, hoshimachi suisei school uniform, hood up, white jacket, blue eyes, hooded jacket, animal hood, symbol in eye, open clothes, yellow bowtie, open jacket, pleated skirt, star in eye, blue skirt, blue choker, blue sailor collar"
+    オリエンタルスーツ: "hoshimachi suisei, hoshimachi suisei oriental suit, black headwear, sunglasses, round eyewear, red eyes, red-tinted eyewear, black dress, hair over shoulder, fedora, two-sided fabric, side slit"
+    ストリートウェア: "hoshimachi suisei, hoshimachi suisei streetwear, orange pantyhose, blue eyes, blue hair, star in eye, symbol in eye, beret, off shoulder, black skirt, o-ring thigh strap, blue jacket, black footwear"
+    shout_in_crisis: "hoshimachi suisei, hoshimachi suisei shout in crisis, blue eyes, floral print, rose print, hair ribbon, black shorts, high ponytail, black belt, fiery hair, black shirt, chest belt, symbol in eye"
+  AZKi:
+    服装1: "azki hololive, azki 1st costume hololive, black hair, navel, black gloves, looking at viewer, elbow gloves, facial mark, very long hair, black tube top, asymmetrical clothes, bare shoulders, see-through, detached sleeves, blunt bangs, black panties, purple eyes, black bandeau, red sleeves, asymmetrical legwear, twintails,"
+    服装2: "azki hololive, azki 2nd costume hololive, black bandeau, see-through, black shorts, black jacket, black hair, off shoulder, black thighhighs, short hair, black tube top, bare shoulders, open jacket, short shorts, purple eyes, necklace, bob cut, sleeveless, facial mark, long sleeves, pink shirt, highleg panties, sneakers, black choker, midriff, multicolored hair, bra, sleeves past wrists, inverted bob, blue eyes, pink dress"
+    服装3: "azki hololive, azki 3rd costume hololive, colored inner hair, pink hair, purple eyes, black hair, smile, dress, open mouth, looking at viewer, wrist cuffs, short hair, socks, detached collar, frills, pink footwear, bare shoulders, skirt, ribbon"
+    服装4: "azki hololive, azki 4th costume hololive, colored inner hair, pink hair, purple eyes, white ascot, streaked hair, brown jacket, mole under eye, white dress, black hair, white hair, hairclip, collared dress, double-parted bangs, brown hair, hair intakes, very long hair"
+    ドレス: "azki hololive, azki dress hololive, pink hair, colored inner hair, white dress, purple eyes, long hair, black hair, white gloves, side ponytail, tiara, high heels, streaked hair, purple hair, hair ornament, jacket, hair between eyes"
+  夏色まつり:
+    服装1: "natsuiro matsuri, natsuiro matsuri 1st costume, brown hair, ahoge, side ponytail, navel, black camisole, pleated skirt, cat hair ornament, white skirt, orange jacket, black pantyhose, short sleeves, green ribbon, miniskirt, cropped jacket, midriff, crop top, off-shoulder jacket, green eyes, hair ribbon, spaghetti strap, bare shoulders, medium hair, neck ribbon"
+    hololive_summer_2019: "natsuiro matsuri, natsuiro matsuri hololive summer 2019, sunflower, straw hat, brown hair, orange bikini, navel, side ponytail, frilled bikini, green eyes, groin, bare shoulders, sun hat, hat flower, yellow flower, medium hair, halterneck, one-piece tan"
+    カジュアル: "natsuiro matsuri, natsuiro matsuri casual, brown hair, shoulder cutout, twintails, ahoge, hair ribbon, see-through sleeves, black ribbon, brown skirt, blue eyes, grey shirt, bare shoulders, puffy long sleeves, collared shirt, choker, medium hair"
+    ゲーミングカジュアル: "natsuiro matsuri, natsuiro matsuri gaming casual, long hair, shirt, brown hair, long sleeves, bare shoulders, jacket, ahoge, open clothes, shorts, socks, off shoulder, open jacket, sleeves past wrists, short shorts, black shorts, puffy long sleeves, orange shirt"
+    オフの日: "natsuiro matsuri, natsuiro matsuri natsuri's day off, brown hair, ahoge, side ponytail, striped jacket, camisole, striped clothes, hair scrunchie, short shorts, green eyes, orange shorts, long sleeves, open clothes, off shoulder, bare shoulders, orange scrunchie, midriff"
+    ストリートカジュアル: "natsuiro matsuri, natsuiro matsuri street casual, brown skirt, brown hair, white shirt, plaid skirt, plaid jacket, pleated skirt, parted bangs, long sleeves, black headwear, blue eyes, long hair, black socks, brown jacket, necklace, beret, open jacket, fake animal ears, brown socks, aqua eyes"
+    summer_2020: "natsuiro matsuri, natsuiro matsuri summer 2020, eyewear on head, ahoge, navel, sunglasses, twintails, green eyes, one-piece tan, white bikini, brown hair, white jacket, long sleeves, sunflower hair ornament, front-tie bikini top, bare shoulders, hair ribbon, off shoulder"
+    正月: "natsuiro matsuri, natsuiro matsuri new year, brown hair, navel, ahoge, detached sleeves, japanese clothes, midriff, hair bow, red bow, red skirt, nontraditional miko, wide sleeves, aqua eyes, miniskirt, streaked hair, jingle bell, crop top, hair bell"
+  アキ・ローゼンタール:
+    服装1: "aki rosenthal, aki rosenthal 1st costume, blonde hair, pleated dress, elbow gloves, bob cut, headgear, detached hair, white gloves, blue jacket, short dress, red necktie, parted bangs, shrug clothing, collared dress, low twintails, short sleeves, short hair, white dress, overskirt, blue eyes, thigh boots, black thighhighs, two-tone dress, purple eyes, white skirt, hair ornament"
+    睡眠着: "aki rosenthal, aki rosenthal sleepwear, detached hair, blonde hair, parted bangs, navel, bob cut, low twintails, babydoll, short hair, blue eyes, headgear, purple eyes, bare shoulders, long hair, hair ornament, white thighhighs, choker, single thighhigh, see-through"
+    ゲーミングカジュアル: "aki rosenthal, aki rosenthal gaming casual, blonde hair, parted bangs, purple eyes, green jacket, paint splatter, cat ears, long hair, paint on clothes, animal ear fluff, detached hair, off shoulder, twintails, bare shoulders, tank top, long sleeves"
+    ゴシックロリータ: "aki rosenthal, aki rosenthal gothic lolita, detached hair, blonde hair, gothic lolita, black dress, white pantyhose, black gloves, parted bangs, key, claw ring, red eyes, twin drills, juliet sleeves, very long hair, lolita hairband, glowing, low twintails, purple eyes, halterneck, half gloves, horns, frilled dress"
+    正月: "aki rosenthal, aki rosenthal new year, purple eyes, blonde hair, hakama skirt, detached hair, parted bangs, long hair, sleeveless kimono, detached sleeves, red hakama, red skirt, blue headwear, blue kimono, white apron, beret, frilled apron, swept bangs, hair flower, lace-up boots, bare shoulders, obi, sideboob, waist apron, bob cut, hair bun, floral print, tachi-e"
+  赤井はあと:
+    服装1: "akai haato, akai haato 1st costume, blonde hair, heart hair ornament, hair ribbon, white shirt, red ribbon, one side up, very long hair, black thighhighs, loafers, high-waist skirt, blue skirt, collared shirt, short sleeves, aqua eyes, tachi-e, bowtie, pleated skirt, miniskirt, neck ribbon, blue eyes"
+    ゴシックロリータ: "akai haato, akai haato gothic lolita, blonde hair, very long hair, hair ornament, two side up, black panties, red dress, sleeveless, frills, tiara"
+    hololive_summer_2019: "akai haato, akai haato hololive summer 2019, blonde hair, blue eyes, very long hair, navel, single side bun, red bikini, underboob, single hair bun, hair ornament, bikini skirt, beach towel, hair ribbon"
+    服装6: "akai haato, akai haato 6th costume, blonde hair, twintails, tiara, long hair, white dress, blue eyes, frills, heart hair ornament, white choker, red bow, detached sleeves, aqua eyes, puffy short sleeves, hairclip"
+    カジュアル: "akai haato, akai haato casual, blonde hair, very long hair, blue eyes, ponytail, white dress, heart hair ornament, hairclip, hair ribbon, red jacket, long sleeves, red ribbon, open jacket, hood"
+    正月: "akai haato, akai haato new year, blonde hair, red kimono, obi, very long hair, wide sleeves, tabi, floral print, ahoge, fur collar, blue eyes, fur trim, print kimono, hair flower, hair bow, long sleeves, white socks, white flower, hairband, furisode, aqua eyes"
+  紫咲シオン:
+    服装1: "murasaki shion, murasaki shion 1st costume, long hair, witch hat, navel, grey hair, vertical-striped shirt, cropped shirt, long sleeves, midriff, vertical-striped clothes, hairband, gloves, thighhighs, black skirt, single side bun, pinstripe shirt, yellow eyes, black headwear, black capelet, hair ornament, arched bangs, miniskirt, pink bowtie"
+    服装8: "murasaki shion, murasaki shion 8th costume, long hair, grey hair, black shirt, streaked hair, yellow eyes, arm warmers, thigh strap, hairclip, purple hair, short sleeves, bandaid on leg, cat ear headphones, purple skirt, pleated skirt, plaid skirt, t-shirt, black collar, belt, necklace, black skirt, miniskirt"
+    ゴシックロリータ: "murasaki shion, murasaki shion gothic lolita, long hair, halter dress, cat ears, detached sleeves, black dress, grey hair, criss-cross halter, frilled choker, tail bow, cat tail, star brooch, bare shoulders, frilled dress, white pantyhose, cat girl, yellow eyes, animal ear fluff, ribbon, black sleeves, twintails, sleeveless dress, long sleeves"
+    魔法少女メイド: "murasaki shion, murasaki shion magical girl maid, long hair, grey hair, white socks, pink jacket, single side bun, white shirt, sleeves past wrists, shorts, long sleeves, potted plant, hair ornament, wand, single hair bun, off shoulder, orange eyes, yellow eyes, blunt bangs, hairband, arched bangs"
+    hololive_summer_2019: "murasaki shion, murasaki shion hololive summer 2019, long hair, navel, grey hair, criss-cross halter, bikini skirt, black bikini, hairband, bare shoulders, black choker, yellow eyes"
+    制服: "murasaki shion, murasaki shion school uniform, purple necktie, headphones around neck, thigh strap, cat hood, grey hair, thigh belt, long hair, white thighhighs, cat tail, long sleeves, miniskirt, orange eyes, hood up, black footwear, hooded jacket, yellow eyes, low twintails, black skirt, animal ears, black shirt, star hair ornament, arched bangs, pleated skirt"
+    正月: "murasaki shion, murasaki shion new year, long hair, grey hair, single"
+  百鬼あやめ:
+    通常衣装: "nakiri ayame, nakiri ayame 1st costume, nakiri oni horns, japanese clothes, white thighhighs, hair bell, oni mask on head, off shoulder, black kimono, double bun, long sleeves, shimenawa, bare shoulders"
+    巫女衣装: "nakiri ayame shrine maiden, nakiri oni horns, japanese clothes, white thighhighs, wide sleeves, sleeves past wrists"
+    ガーリー衣装: "nakiri ayame girly, nakiri oni horns, white shirt, shoulder cutout, suspender skirt, hair bow, collared shirt, black skirt, suspenders, clothing cutout, skin fang, high-waist skirt, very long hair,"
+    正月衣装: "nakiri ayame new year, nakiri oni horns, japanese clothes, red kimono, side ponytail, hair flower, sash, obi, floral print, print kimono, wide sleeves, tabi, sleeves past wrists, skin fang"
+    私服: "nakiri ayame offwork, nakiri oni horns, white shirt, open jacket, skin fang, red jacket, open clothes ,"
+    巫女衣装2: "nakiri ayame shrine maiden, nakiri oni horns, japanese clothes, detached sleeves, hair flower, maple leaf, wide sleeves, shimenawa, white kimono"
+    ストリート衣装: "nakiri ayame streetwear, nakiri oni horns, black necktie, x hair ornament, pleated skirt, white shirt, off shoulder, black thighhighs, black jacket, sleeveless shirt, hair ribbon, black skirt, collared shirt, black ribbon, open clothes, bare shoulders, miniskirt, black choker, open jacket, black belt, tie clip"
+    夏衣装: "nakiri ayame summer, nakiri oni horns, blue bikini, bikini skirt, side-tie bikini bottom"
+  癒月ちょこ:
+    通常衣装: "yuzuki choco, yuzuki choco 1st costume, demon horns, demon girl, breast tattoo, swept bangs, long hair, horn ring, demon wings, single sidelock, demon tail, horn ornament, blonde hair, black horns, pointy ears, garter straps, blue eyes, pink shirt, thighhighs, sleeveless shirt, frilled shirt, gradient hair, lace-trimmed skirt, bare shoulders, collared shirt"
+    8周年衣装: "yuzuki choco, yuzuki choco 8th costume, blonde hair, demon wings, pointy ears, long hair, demon girl, demon tail, multicolored hair, black necktie, single sidelock, blue eyes, short sleeves, yuzuki choco horns, thigh strap, swept bangs, frills, x hair ornament, horn ring, horn ornament, blue headwear, pink hair, police hat, collared shirt, white shirt, white skirt"
+    ホロライブサマー2019: "yuzuki choco, yuzuki choco hololive summer 2019, pointy ears, breast tattoo, blonde hair, demon wings, demon tail, demon girl, long hair, yuzuki choco horns, black bikini, navel, green eyes, swept bangs, single sidelock, hair flower, ponytail, side-tie bikini bottom, horn ornament, gradient hair, horn ring, hair scrunchie, frilled bikini, halterneck, lace trim,"
+    メイド衣装: "yuzuki choco, yuzuki choco maid, long hair, pointy ears, demon girl, blonde hair, swept bangs, maid headdress, yuzuki choco horns, twintails, horn ornament, see-through cleavage, demon wings, single sidelock, gradient hair, frills, horn ring, demon tail, detached sleeves, green eyes, long sleeves, couch, red bowtie, white apron, corset, sleeveless, maid apron, underbust"
+    正月衣装: "yuzuki choco, yuzuki choco new year, blonde hair, see-through cleavage, pointy ears, red kimono, breast tattoo, yuzuki choco horns, blue eyes, single sidelock, hair flower, demon girl, swept bangs, horn ornament, off shoulder, bare shoulders, wide sleeves, horn ring, fishnet top, single hair bun, crown braid, gradient hair, pink hair, o-ring"
+    ナース衣装: "yuzuki choco, yuzuki choco nurse, breast tattoo, swept bangs, yuzuki choco horns, double bun, horn ornament, single sidelock, blonde hair, pointy ears, demon wings, demon girl, nurse cap, long hair, sleeves past wrists, pink necktie, blue eyes, long sleeves, black jacket, black cardigan, open jacket, open cardigan, white shirt, parted bangs, sidelocks, sailor collar"
+    部屋着: "yuzuki choco, yuzuki choco sleepwear, breast tattoo, pointy ears, blonde hair, demon girl, long hair, blue eyes, yuzuki choco horns, swept bangs, necklace, white dress"
+    ストリート衣装: "yuzuki choco, yuzuki choco streetwear, breast tattoo, pointy ears, blonde hair, demon wings, swept bangs, short hair, demon girl, horn ornament, off shoulder, yuzuki choco horns, earrings, heart necklace, long sleeves, horn ring, white jacket, bare shoulders, blue eyes, cleavage cutout, sleeveless turtleneck, open jacket, turtleneck sweater"
+  大空スバル:
+    通常衣装: "oozora subaru, oozora subaru 1st costume, white shorts, swept bangs, red thighhighs, short hair, vertical-striped shirt, vertical-striped clothes, baseball cap, tied shirt, mismatched legwear, stopwatch, two-tone headwear, wristband, blue eyes, short shorts, short sleeves, yellow shirt, red headwear, sweatband, black hair, t-shirt, brown hair, whistle around neck, white shirt"
+    部屋着: "oozora subaru, oozora subaru loungewear, sunflower, short hair, striped clothes, black hair, yellow jacket, striped socks, hooded jacket, aqua eyes, brown hair, shorts, long sleeves, open clothes, green eyes, hoodie,"
+    正月衣装: "oozora subaru, oozora subaru new year, kanzashi, short hair, kimono, blue eyes, hakama skirt, red bow, swept bangs, tassel hair ornament, black hair, hair bow, wide sleeves, long sleeves, hair ribbon, white socks"
+    私服: "oozora subaru, oozora subaru casual, center frills, long hair, red bowtie, blue headwear, blue skirt, swept bangs, white shirt, long sleeves, hair ribbon, virgin killer outfit, beret, frilled shirt collar, high-waist skirt, white ribbon, plaid skirt, black hair, frilled skirt, aqua eyes, blue eyes, ahoge, brown hair, shoulder bag"
+    ホロライブサマー2019: "oozora subaru, oozora subaru hololive summer 2019, striped bikini, short hair, striped clothes, bow hairband, swept bangs, black hair, yellow bikini, brown hair, bare shoulders, off shoulder, open jacket, blue eyes, two-tone jacket, hair ribbon, polka dot ribbon, blue hairband, blue jacket"
+    スターライト衣装: "oozora subaru, oozora subaru starlight, white gloves, suspender shorts, white thighhighs, short hair, navel, beret, black hair, garter straps, midriff, idol, white headwear, blue eyes, short sleeves, black shorts, shirt, aqua eyes, crop top, sunflower hair ornament, center frills, short shorts"
+    仕事着: "oozora subaru, oozora subaru work, swept bangs, hip vent, grey thighhighs, short hair, blue shorts, vertical-striped clothes, vertical-striped shirt, black bowtie, navel, grey shirt, blue jacket, cropped shirt, cropped jacket, long sleeves, hairclip, panty peek, midriff, suspender shorts, black hair, armband, beret, french braid, short shorts, blue eyes, crop top, high collar, grey headwear, aqua eyes, brown hair, belt, lace-trimmed panties"
+  白上フブキ:
+    通常衣装: "shirakami fubuki, shirakami fubuki 1st costume, fox ears, fox tail, fox girl, ahoge, white hair, detached sleeves, long hair, thigh strap, animal ear fluff, black thighhighs, pentagram, navel, black shorts, white hoodie, single braid, sidelocks, short shorts, aqua eyes"
+    部屋着: "shirakami fubuki, shirakami fubuki loungewear, black panties, fox ears, fox girl, fox tail, black shirt, long hair, white hair, animal ear fluff, blue eyes, black hairband, socks, extra ears, hair between eyes"
+    貴族風衣装: "shirakami fubuki, shirakami fubuki aristocrat kei, long hair, white pantyhose, blue jacket, mini hat, ahoge, fox ears, white hair, white gloves, fox girl, single braid, green eyes, white shirt, sidelocks, grey skirt, braided ponytail, open jacket, fox tail, ascot, lolita fashion, animal ear fluff, frilled skirt, pentagram, bow, long skirt, long sleeves, corset, black hairband"
+    8周年衣装: "shirakami fubuki, shirakami fubuki 8th costume, fox ears, long hair, white hair, fox girl, ahoge, fox tail, animal ear fluff, detached sleeves, dress, sidelocks, pantyhose, braid, green eyes, maid apron, enmaided, hairclip, frills, chinese clothes, orange blouse"
+    フブキTek: "shirakami fubuki, shirakami fubuki fubukitek, fox ears, long hair, fox girl, fox tail, white hair, ahoge, thigh strap, white jacket, pentagram, open jacket, fur-trimmed jacket, black choker, animal ear fluff, single braid, green eyes, sidelocks, shirt, side braid, black dress, long sleeves, aqua eyes, shorts"
+    ホロライブサマー2019: "shirakami fubuki, shirakami fubuki hololive summer 2019, fox ears, ahoge, fox girl, white hair, fox tail, white jacket, twin braids, open jacket, blue bikini, sidelocks, shading eyes, animal ear fluff, green eyes, bikini skirt, single braid, very long hair, long sleeves, white shirt, hooded jacket, open shirt, frilled bikini"
+    ストリート衣装: "shirakami fubuki, shirakami fubuki street, fox ears, fox tail, fox girl, black headwear, white hair, beret, ahoge, black pantyhose, white shirt, sidelocks, frilled skirt, black skirt, green eyes, animal ear fluff, green skirt, pentagram, single braid, low ponytail, long sleeves, wide sleeves, very long hair, side braid"
+    正月衣装: "shirakami fubuki, shirakami fubuki new year, fox ears, long hair, fox girl, ahoge, white hair, fox tail, white kimono, animal ear fluff, single braid, earrings, green eyes, hair flower, sidelocks, wide sleeves, skirt, blue hakama, sash, blue kimono"
+  大神ミオ:
+    通常衣装: "ookami mio, ookami mio 1st costume, wolf ears, wolf tail, wolf girl, multicolored hair, white thighhighs, detached sleeves, streaked hair, red choker, animal ear fluff, black skirt, midriff, pleated skirt, rope, kouhaku nawa, miniskirt, black shirt, shimenawa, yellow eyes, very long hair, bare shoulders, tabi, sleeveless shirt"
+    別衣装: "ookami mio, ookami mio another ookami mio, black hair, wolf ears, streaked hair, wolf tail, wolf girl, navel, black shorts, animal ear fluff, sailor collar, long hair, midriff, black choker, long sleeves, thigh strap, open clothes, neckerchief, hooded jacket, black shirt, short shorts, hood up, white hair, crop top, black jacket"
+    不思議の国衣装: "ookami mio, ookami mio wonderland, thigh boots, twintails, black hair, elbow gloves, long hair, hair flower, yellow eyes, black gloves, thighhighs, white bow, pantyhose, hair bow, puffy sleeves, streaked hair, choker, dress, short sleeves, red rose, helmet, cross-laced clothes, clothing cutout"
+    ストリート衣装: "ookami mio, ookami mio street, black hair, wolf ears, streaked hair, animal ear fluff, yellow eyes, black skirt, braid, white shirt, beret, wolf girl, hairclip, black headwear, steepled fingers, sleeveless shirt, necklace, low ponytail, long sleeves, brown cardigan, very long hair, x hair ornament, open cardigan, off shoulder"
+    私服: "ookami mio, ookami mio casual, black hair, wolf ears, wolf tail, glasses, streaked hair, wolf girl, animal ear fluff, black hoodie, white hoodie, black pantyhose, paw print pattern, long sleeves, two-tone hoodie, sleeves past wrists, black choker, white hair, short shorts, hairclip, black shorts, very long hair, yellow eyes"
+    ホロライブサマー2019: "ookami mio, ookami mio hololive summer 2019, wolf ears, black hair, white shorts, navel, streaked hair, wolf girl, animal ear fluff, bikini under clothes, open jacket, black jacket, front-tie bikini top, black choker, yellow eyes, string bikini, open fly, short shorts, white bikini, off shoulder, skin fang, maple leaf print, long sleeves, very long hair, hairclip"
+    正月衣装: "ookami mio, ookami mio new year, wolf ears, black hair, long hair, streaked hair, black choker, yellow eyes, animal ear fluff, wolf girl, bare shoulders, off shoulder, floral print, hairclip, red kimono, ponytail, hair ribbon, nape, print kimono, obi"
+  猫又おかゆ:
+    通常衣装: "nekomata okayu, nekomata okayu 1st costume, cat tail, onigiri print, black hoodie, sleeves past wrists, white pants, animal collar, midriff, crossed bangs, drawstring, hood down, black collar, medium hair"
+    オーバーサイズシャツ: "nekomata okayu, nekomata okayu oversized shirt, cat tail, purple ribbon, black collar, collared shirt, medium hair,"
+    8周年衣装: "nekomata okayu, nekomata okayu 8th costume, cleavage cutout, clothing cutout, animal ear fluff, cat tail, black jacket, bandaid on arm, alternate hairstyle, hair ribbon, grey sweater, sleeveless sweater"
+    メンバーシップ特典衣装: "nekomata okayu, nekomata okayu membership, cat tail, purple jacket, strap slip, purple shorts, open jacket, off shoulder, open clothes, partially unzipped, medium hair, short shorts,"
+    正月衣装: "nekomata okayu, nekomata okayu newyear, japanese clothes, animal ear fluff, onigiri, wa maid, white apron, wide sleeves, tabi, hair flower, frills, frilled apron, obi, zouri, sash, white socks, purple kimono, purple skirt, ribbon-trimmed sleeves, purple sleeves"
+    ポイズン病衣装: "nekomata okayu, nekomata okayu poisonya syndrome, cat tail, black boots, black shorts, animal ear fluff, heart on chest, midriff, clothing cutout, shorts under skirt, medium hair, beret, hat flower,"
+    制服: "nekomata okayu, nekomata okayu seifuku, cat tail, midriff, white shorts, animal ear fluff, school shirt, black collar, white neckerchief, black hairband, buttons, crossed bangs, black shirt, animal collar"
+    不思議の国衣装: "nekomata okayu, nekomata okayu wonderland, white shirt, cat tail, black beret, black shorts, heart on chest, frills, animal ear fluff, kneehighs, cleavage cutout, cat girl, black coat, striped tail, purple socks"
+    夏衣装: "nekomata okayu, nekomata okayu summer, bikini under clothes, black bikini, t-shirt, string bikini, animal collar, see-through shirt, crossed bangs, black choker"
+  戌神ころね:
+    通常衣装: "inugami korone, inugami korone 1st costume, dog ears, bone hair ornament, dog tail, yellow jacket, white dress, dog girl, off shoulder, red eyes, red collar, animal collar, open jacket, extra ears, sleeveless dress, open clothes, short dress, buttons"
+    ボクシング衣装: "inugami korone, inugami korone boxing, bone hair ornament, boxing gloves, dog ears, dog girl, dog tail, navel, midriff, red collar, black shorts, yellow sports bra"
+    部屋着: "inugami korone, inugami korone loungewear, dog ears, dog tail, striped clothes, dog girl, detached sleeves, black choker, striped socks, pink jacket, black shirt, o-ring choker, fur trim, extra ears, pink sleeves, hooded vest, open clothes, long sleeves, fur-trimmed sleeves, pink hoodie, collarbone"
+    正月衣装: "inugami korone, inugami korone newyear, brown hair, brown eyes, detached sleeves, japanese clothes, halterneck, dog ears, shawl, tabi, bone hair ornament"
+    ストリート衣装: "inugami korone, inugami korone street, dog girl, dog ears, bone hair ornament, dog tail, frills, black socks, white shirt, yellow bowtie, kneehighs, brown skirt, hair ribbon, frilled skirt, high-waist skirt, long sleeves, brown capelet"
+    バイキング衣装: "inugami korone, inugami korone viking, animal helmet, brown hair, red eyes, navel, belt, black thighhighs, necklace, fur trim, red skirt, fur-trimmed boots"
+    ウェイトレス衣装: "inugami korone, inugami korone waitress, paw gloves, spiked collar, animal hands, bone hair ornament, visor cap, waist apron, dog ears, dog tail, dog girl, yellow skirt, navel, single thighhigh, red eyes, red thighhighs, midriff, yellow shirt, white apron, red collar, miniskirt, sleeveless shirt, frills, frilled apron, animal collar"
+    不思議の国衣装: "inugami korone, inugami korone wonderland, brown hair, brown eyes, black choker, blue dress, fishnets, dog ears, dog tail, fishnet pantyhose, dog girl, o-ring choker"
+  兎田ぺこら:
+    通常衣装: "usada pekora, usada pekora 1st costume, rabbit ears, animal ear fluff, black gloves, thick eyebrows, carrot hair ornament, detached sleeves, hair bow, fur scarf, rabbit girl, white dress, short eyebrows, white bow"
+    私服: "usada pekora, usada pekora casual, blue jacket, thick eyebrows, rabbit ears, carrot hair ornament, fur trim, fur-trimmed jacket, open jacket, short hair, short eyebrows, denim jacket, open clothes, white shirt"
+    フリフリバニー衣装: "usada pekora, usada pekora furi furi bunny dress, rabbit ears, high heels, thick eyebrows, fishnet thighhighs, fake animal ears, fishnets, rabbit tail, black dress, short eyebrows, puffy short sleeves, black thighhighs, playboy bunny, puffy sleeves, detached collar, rabbit girl"
+    正月衣装: "usada pekora, usada pekora newyear, rabbit ears, japanese clothes, double bun, red kimono, thick eyebrows, sash, rabbit girl, animal ear fluff, tabi, white socks, rabbit-shaped pupils, obi, wine bottle, hair flower, braided bun, short eyebrows, kimono skirt, short kimono, sidelocks"
+    囚人服: "usada pekora, usada pekora prisoner, prison clothes, rabbit ears, rabbit tail, striped headwear, rabbit girl, thick eyebrows, metal collar, off shoulder, safety pin, short eyebrows, bare shoulders, hair between eyes"
+    夏衣装: "usada pekora, usada pekora summer, rabbit ears, animal ear fluff, carrot hair ornament, white bikini, open clothes, bare shoulders, open jacket, off shoulder, white jacket, frilled bikini, thick eyebrows, front-tie top, bikini skirt, front-tie bikini top, ahoge, halterneck"
+  ぺこらマミー:
+    通常衣装: "usada pekora, pekomama, rabbit ears, rabbit tail, animal ear fluff, rabbit girl, mature female, hair over shoulder, bare shoulders, streaked hair, thick eyebrows, white sleeves, white dress"
+  不知火フレア:
+    通常衣装: "shiranui flare, shiranui flare 1st costume, long hair, dark-skinned female, blonde hair, streaked hair, hair bow, sidelocks, detached sleeves, white thighhighs, elf, red eyes, blue bow, white hair, bare shoulders, bowtie, red bow, high ponytail, white dress, cleavage cutout, skirt, white sleeves, ribbon"
+    旧デザイン: "shiranui flare, shiranui flare old design, long hair, dark-skinned female, blonde hair, streaked hair, hair bow, elf, ponytail, red eyes, single thighhigh, black gloves, clothing cutout, white hair, wide sleeves"
+    ストリート衣装: "shiranui flare, shiranui flare street, long hair, blonde hair, dark-skinned female, streaked hair, white sailor collar, sailor dress, grey dress, long sleeves, sidelocks, vertical-striped dress, frills, red eyes, pinstripe pattern, elf, vertical-striped clothes, french braid, orange eyes, black ribbon"
+    4周年衣装: "shiranui flare, shiranui flare 4th costume, blonde hair, long hair, streaked hair, dark-skinned female, belt, necktie, elf, hair flower, long sleeves, sidelocks, hooded jacket, open jacket, white hair, french braid, white shirt, pink jacket, puffy sleeves, hood down"
+    部屋着: "shiranui flare, shiranui flare loungewear, streaked hair, blonde hair, long hair, dark-skinned female, striped clothes, long sleeves, white hair, hair bow, hood up, red eyes, striped socks, animal ears, rabbit hood, orange eyes, twintails, hooded jacket"
+    正月衣装: "shiranui flare, shiranui flare new year, streaked hair, long hair, dark-skinned female, blonde hair, red gloves, elf, red eyes, hakama skirt, sidelocks, kimono, hair bow, white hair, wide sleeves, long sleeves, red hakama"
+  白銀ノエル:
+    通常衣装: "shirogane noel, shirogane noel 1st costume, green eyes, grey hair, medium hair, wavy hair, braid, shoulder armor, mole, tiara, brown belt, chest belt, gloves, cleavage cutout"
+    5周年衣装: "shirogane noel, shirogane noel 5th costume, green eyes, grey hair, ponytail, thigh strap, bare shoulders, belt, black shorts, hair ribbon, braid, medium hair, wide sleeves, wavy hair, choker, blue ribbon, short shorts, shirt, cleavage"
+    7周年衣装: "shirogane noel, shirogane noel 7th costume, green eyes, grey hair, horns, pelvic curtain, nun, wavy hair, short hair, gauntlets, habit, black thighhighs, pauldrons, black gloves"
+    ディアンドル: "shirogane noel, shirogane noel dirndl, green eyes, grey hair, twin braids, hair flower, dirndl, long hair, necklace, short sleeves, blunt bangs, bare shoulders, white shirt, frills, puffy sleeves,"
+    私服: "shirogane noel, shirogane noel casual, green eyes, grey hair, short hair, wavy hair, off-shoulder sweater, white sweater, black choker, hair ribbon, black skirt, bare shoulders, plaid, french braid, ribbed sweater"
+    正月衣装: "shirogane noel, shirogane noel new year, grey hair, green eyes, blue kimono, floral print, print kimono, hair flower, wide sleeves, braid, short hair, tabi, white socks, zouri, long sleeves, wavy hair, obijime, furisode, hair between eyes"
+    制服: "shirogane noel, shirogane noel school uniform, grey hair, green eyes, clothes around waist, plaid skirt, braid, white shirt, collared shirt, school uniform, pleated skirt, blue skirt, short hair, sweater, loafers, blue necktie, miniskirt, sleeves rolled up"
+    サマー2020: "shirogane noel, shirogane noel summer 2020, green eyes, grey hair, eyewear on head, navel, sunglasses, short hair, wavy hair, bikini skirt, choker, arm strap, black-framed eyewear, two-tone bikini, bare shoulders, front-tie bikini top, highleg bikini, microskirt, crossed bangs, blue skirt, wrist cuffs"
+  宝鐘マリン:
+    通常衣装: "houshou marine, houshou marine 1st costume, bicorne, red skirt, white gloves, off shoulder, black thighhighs, black headwear, leotard under clothes, black coat, hair ribbon, red ribbon, long sleeves"
+    8周年衣装: "houshou marine, houshou marine 8th costume, long hair, heterochromia, yellow eyes, red hair, earrings, wrist scrunchie, red eyes, bare shoulders, covered navel, see-through, nightgown, choker, frills"
+    夏衣装: "houshou marine, houshou marine summer, heart-shaped eyewear, sunglasses, very long hair, baseball cap, heart earrings, purple-tinted eyewear, pink-tinted eyewear, heterochromia, off shoulder, eyewear on headwear, hooded jacket"
+    修道服: "houshou marine, houshou marine nun, nun, breast curtains, navel, heterochromia, white thighhighs, long sleeves, pelvic curtain"
+    ビジネスウーマン風衣装: "houshou marine, houshou marine businesswoman, heterochromia, bodystocking, id card, short hair, fur trim, black gloves, black skirt, beret, black headwear, fur-trimmed coat, sleeveless shirt, black bra, white shirt, see-through cleavage, collared shirt, skin fang"
+    ゴスロリ: "houshou marine, houshou marine gothic lolita, red hair, heterochromia, red eyes, yellow eyes, very long hair, white thighhighs, twintails, corset, hair ribbon, black gloves, hat flower, red dress, top hat, detached sleeves, frilled sleeves, black ribbon, long sleeves, valentine, garter straps, black headwear, bare shoulders, leg ribbon, red ribbon, mini hat, frilled dress, black bow, red flower"
+    マーチングバンド風衣装: "houshou marine, houshou marine marching band, heterochromia, multicolored hair, streaked hair, very long hair, elbow gloves, see-through cleavage, hair bun, bare shoulders, thigh boots, single side bun"
+    正月衣装: "houshou marine, houshou marine new year, heterochromia, red eyes, red hair, yellow eyes, ponytail, detached collar, hair bow, hair flower, long hair, fur trim, wide sleeves, white kimono, off shoulder, pelvic curtain,"
+    制服: "houshou marine, houshou marine school uniform, red eyes, red hair, yellow eyes, heterochromia, long hair, white shirt, black headwear, beret, brown pantyhose, black choker, black jacket, school uniform, collared shirt, plaid skirt, pleated skirt, long sleeves, blue bowtie, partially unbuttoned, blue skirt, open jacket, plaid bowtie"
+    宝鐘クマリー: "houshou marine, houshou kumarine, red hair, yellow eyes, heterochromia, red eyes, long hair, animal costume, paw gloves, animal, hood, black choker, animal ears, hood up"
+  天音かなた:
+    通常衣装: "amane kanata, amane kanata 1st costume, colored inner hair, blue hair, purple eyes, grey hair, angel wings, star halo, bob cut, feathered wings, short hair, long sleeves, single hair intake, asymmetrical hair, asymmetrical bangs, maid headdress, streaked hair, armband, black skirt, sailor collar, mini wings, white wings, blue bow, shirt, frilled skirt, bowtie, white jacket"
+    別世界衣装: "amane kanata, amane kanata another world, long hair, feathered wings, purple eyes, black gloves, grey hair, angel wings, feathers, double bun, thigh strap, colored inner hair, single thighhigh, blue hair, bare shoulders, halo, strapless, black dress, x hair ornament, ribbon, skirt"
+    仕事着: "amane kanata, amane kanata work, colored inner hair, long hair, grey hair, star halo, blue hair, purple eyes, single hair intake, single thighhigh, angel wings, blue thighhighs, hairclip, black gloves, feathered wings, two side up, single kneehigh, uneven legwear, mismatched legwear, streaked hair, bare shoulders, black socks, asymmetrical bangs, black dress, frills, necklace, mini wings"
+    ナース衣装: "amane kanata, amane kanata nurse, colored inner hair, blue hair, purple eyes, long hair, grey hair, angel wings, two side up, thigh strap, single hair intake, short sleeves, white dress, streaked hair, star halo, black ribbon, hair ribbon, asymmetrical bangs, feathered wings, mini wings, puffy sleeves, gradient wings"
+    正月衣装: "amane kanata, amane kanata new year, purple eyes, blue hair, grey hair, single hair intake, colored inner hair, asymmetrical hair, streaked hair, hair flower, detached sleeves, obi, x hair ornament, braid, wide sleeves, short hair, single side bun, pink hair, floral print, single hair bun, long sleeves, blue kimono, frilled sleeves, hairclip, white kimono, asymmetrical bangs"
+    パンクロック風衣装: "amane kanata, amane kanata punk rock, blue hair, grey hair, white shirt, fishnet pantyhose, angel wings, halo, t-shirt, hairclip, print shirt, ahoge, blue eyes, thigh strap, feathered wings, streaked hair, character print, black shorts, colored inner hair, x hair ornament, v over mouth, off shoulder, black collar, black choker, platform footwear, single hair intake, single leg pantyhose, short sleeves, loose socks, white wings, asymmetrical legwear"
+    夏衣装: "amane kanata, amane kanata summer, double bun, purple eyes, grey hair, blue hair, bikini, angel wings, hairclip, feathered wings, navel, streaked hair, bow, colored inner hair, black choker, ahoge, pink hair, see-through"
+  角巻わため:
+    通常衣装: "tsunomaki watame, tsunomaki watame 1st costume, sheep girl, watame horns, harp, sheep ears, blonde hair, ahoge, very long hair, hairclip, fur trim, white dress, purple eyes, fur-trimmed dress, bare shoulders, blue eyes, cape, fur-trimmed boots, hair flower, sleeveless dress, high heel boots"
+    わためナイトフィーバー！！衣装: "tsunomaki watame, tsunomaki watame watame night fever!!, sheep girl, tsunomaki watame horns, blonde hair, sheep ears, hairclip, white dress, very long hair, ahoge, sleeveless dress,"
+    1stソロライブ衣装: "tsunomaki watame, tsunomaki watame 1st solo live, red gloves, blonde hair, tsunomaki watame horns, purple eyes, sheep ears, sheep girl, half-skirt, ahoge, overskirt, frilled choker, single glove, halter shirt, bare shoulders, very long hair, black skirt, two side up, plaid skirt, miniskirt, black shirt, puffy short sleeves, sleeveless, hair ribbon, red choker, red ribbon, halterneck, wrist cuffs, pleated skirt, see-through, hairclip, detached sleeves, layered skirt"
+    8周年衣装: "tsunomaki watame, tsunomaki watame 8th costume, purple eyes, blonde hair, sheep ears, sheep girl, navel, midriff, white shorts, tsunomaki watame horns, crop top, open jacket, short shorts, white shirt, sneakers, ahoge, hairclip, white socks, long hair, cropped shirt, choker, puffy long sleeves, multicolored jacket, off shoulder, ribbon, white belt, kneehighs"
+    部屋着: "tsunomaki watame, tsunomaki watame loungewear, sheep girl, tsunomaki watame horns, blonde hair, sheep ears, ahoge, hairclip, purple eyes, low twintails, blue eyes, white shirt, blue jacket"
+    正月衣装: "tsunomaki watame, tsunomaki watame new year, sheep girl, tsunomaki watame horns, blonde hair, japanese clothes, sheep ears, purple eyes, ahoge, hair flower, cross-laced footwear, beret, red kimono, hakama skirt, wide sleeves, floral print, print kimono, hair bow, lace-up boots, fur scarf"
+    ストリートカジュアル: "tsunomaki watame, tsunomaki watame street casual, sheep girl, tsunomaki watame horns, blonde hair, sheep ears, ahoge, hairclip, vertical-striped dress, vertical-striped clothes, headphones around neck, purple eyes, open clothes, aran sweater, cable knit, red choker, open jacket, open cardigan, white skirt, sailor dress, hair ribbon"
+  常闇トワ:
+    通常衣装: "tokoyami towa, tokoyami towa 1st costume, long hair, purple hair, green eyes, twintails, white jacket, cropped jacket, streaked hair, fishnet thighhighs, ear piercing, demon tail, black headwear, off shoulder, black shorts, pink hair, midriff, navel piercing, tail piercing, horned headwear, hairclip, short shorts, baseball cap, black choker, crop top, bare shoulders, long sleeves, black tank top, sidelocks, colored inner hair, white belt"
+    5周年衣装: "tokoyami towa, tokoyami towa 5th costume, green eyes, navel piercing, demon tail, purple hair, see-through sleeves, white shorts, demon wings, white hair, white gloves, short shorts, streaked hair, hood up, long sleeves, thigh belt, thigh strap, demon girl, midriff, pink hair, snap-fit buckle, short hair, thigh pouch, goggles on head, ear piercing, shrug clothing, stomach tattoo, translucent armwear"
+    7周年衣装: "tokoyami towa, tokoyami towa 7th costume, long hair, green eyes, demon tail, purple hair, pink hair, white shorts, leg tattoo, demon girl, capelet, swept bangs, hairclip, tail piercing, short shorts, shirt, ear piercing, colored inner hair"
+    正月衣装: "tokoyami towa, tokoyami towa new year, green eyes, fishnet gloves, twintails, purple hair, pink hair, hakama skirt, hairclip, checkered kimono, streaked hair, very long hair"
+    制服: "tokoyami towa, tokoyami towa school uniform, green eyes, purple hair, demon tail, long hair, side ponytail, demon wings, ear piercing, black shirt, tail piercing, demon girl, pink hair, hairclip, demon horns, multicolored hair, purple necktie, sidelocks, short sleeves, pleated skirt, miniskirt"
+    Break your xxx衣装: "tokoyami towa, tokoyami towa break your xxx, green eyes, navel, purple hair, ponytail, single garter strap, white gloves, midriff, pink hair, white shorts, short shorts, belt, earrings, very long hair, asymmetrical sleeves, crop top, black choker, fishnet thighhighs, single thighhigh, hair ornament, bracelet, tiara, streaked hair, shirt, single glove, see-through sleeves, single sleeve"
+    地雷系衣装: "tokoyami towa, tokoyami towa jirai kei, green eyes, long hair, purple hair, pink hair, demon tail, white socks, black skirt, white shirt, pleated skirt, single side bun, black headwear, horned headwear, sleeves past fingers, collared shirt, hairclip, beret, swept bangs, colored inner hair, sleeveless shirt, x hair ornament, off shoulder, grey cardigan, frilled sleeves, streaked hair, miniskirt, long sleeves, tail piercing, aran sweater, open cardigan, one side up, single hair bun, black ribbon, loose socks, frilled shirt, black bowtie, demon girl, suspender skirt"
+  姫森ルーナ:
+    通常衣装: "himemori luna, himemori luna 1st costume, green eyes, purple eyes, heterochromia, candy hair ornament, pink hair, long hair, gradient hair, bracelet, crescent earrings, hair rings, pink dress, single hair ring, one side up, bare shoulders, mini crown, puffy short sleeves"
+    サンドレス: "himemori luna, himemori luna sundress, green eyes, purple eyes, heterochromia, pink hair, candy hair ornament, ahoge, mini crown, crescent earrings, blue dress, medium hair, necklace, bracelet, gradient hair, frilled dress, sailor collar, sleeveless, purple hair, short dress"
+    4周年衣装: "himemori luna, himemori luna 4th costume, green eyes, purple eyes, heterochromia, pink hair, gradient hair, white gloves, long hair, twintails, white thighhighs, blue hair, candy hair ornament, white dress, ahoge, strapless dress, crescent earrings, pearl necklace, black bow"
+    正月衣装: "himemori luna, himemori luna new year, green eyes, purple eyes, heterochromia, twin braids, pink hair, pink kimono, gradient hair, blue hair, wide sleeves, long hair, beret, purple hair, fur scarf, hair flower, long sleeves, obi, black headwear, fur trim, bow, skirt,"
+  雪花ラミィ:
+    通常衣装: "yukihana lamy, yukihana lamy 1st costume, blue hair, yellow eyes, hair flower, heart ahoge, white thighhighs, blue skirt, beret, frilled thighhighs, half updo, streaked hair, white headwear, colored tips, cleavage cutout, blue coat, white shirt, side braid, elf, sleeveless shirt, corset, center frills, fur-trimmed boots, off shoulder, fur-trimmed coat, bare shoulders, belt, white flower, high heel boots, very long hair, pleated skirt, blue bowtie"
+    正月衣装: "yukihana lamy, yukihana lamy new year, heart ahoge, cat ears, blue hair, cat tail, yellow eyes, long hair, streaked hair, colored tips, floral print, pointy ears, snowing, print kimono, cat girl, hair ornament, wide sleeves, blue kimono, low twintails, animal ear fluff, hakama skirt, long sleeves, obi"
+    部屋着: "yukihana lamy, yukihana lamy loungewear, blue hair, heart ahoge, yellow eyes, striped jacket, white camisole, slippers, sleepwear, elf, striped clothes, fur-trimmed jacket, long sleeves, pajamas, streaked hair, bare shoulders, frilled camisole, off shoulder, hairclip, open clothes, very long hair, frills, colored tips, blue jacket"
+    私服: "yukihana lamy, yukihana lamy casual, heart ahoge, blue hair, yellow eyes, pointy ears, twintails, off shoulder, black socks, hair ribbon, black ribbon, head tilt, brown dress, vertical-striped socks, streaked hair, long sleeves, plaid dress, frilled dress, very long hair, sleeveless, necklace, vertical-striped clothes, open jacket, bow, open cardigan"
+    5周年衣装: "yukihana lamy, yukihana lamy 5th costume, yellow eyes, blue hair, elf, ponytail, very long hair, wrist cuffs, dress, white socks, bow, necktie"
+  桃鈴ねね:
+    通常衣装: "momosuzu nene, momosuzu nene 1st costume, green eyes, blonde hair, cleavage cutout, frilled shirt, long hair, bear ears, multicolored bow, paw gloves, hair flower, orange shirt, corset, brown bowtie, yellow bowtie, cutout above navel, gradient hair, underbust, two side up, orange bowtie, pink hair, arm garter, v-shaped eyebrows, sleeveless shirt, neck bell, bare shoulders, jingle bell"
+    私服: "momosuzu nene, momosuzu nene casual, green eyes, side ponytail, long hair, plaid skirt, sleeves past fingers, pink hair, hairclip, blonde hair, pom pom hair ornament, red skirt, white sailor collar, white socks, long sleeves, gradient hair, white shirt, brown cardigan, sweater, frills"
+    チアリーダー: "momosuzu nene, momosuzu nene cheerleader, visor cap, blonde hair, green eyes, inline skates, cheerleader, navel, pink skirt, pink hair, gradient hair, long hair, miniskirt, pink sash, sideways hat, hairclip, white thighhighs, midriff, single hair ring, frilled skirt, sticker on face, layered skirt, bow, crop top overhang, shirt, heart hair ornament, black sports bra, arm garter, white tank top, facial mark"
+    正月衣装: "momosuzu nene, momosuzu nene new year, blonde hair, green eyes, short hair, hair flower, floral print, white gloves, hair bow, bob cut, off shoulder, frills, kanzashi, hakama skirt, bare shoulders, obi, white shirt, steepled fingers, ribbon, blunt bangs, black bow, print kimono, white kimono, gradient hair, sleeveless shirt"
+  獅白ぼたん:
+    通常衣装: "shishiro botan, shishiro botan 1st costume, lion ears, grey hair, long hair, lion girl, grey eyes, lion tail, fur-trimmed jacket, navel, two side up, black jacket, grey skirt, single leg pantyhose, black pantyhose, torn pantyhose, sleeveless shirt, see-through cleavage, miniskirt, black shirt, off shoulder, midriff, necklace, ahoge, o-ring thigh strap, bare shoulders, open jacket, messy hair, sleeves past wrists, high heel boots, ear piercing, long sleeves, fangs, crop top"
+    ボタンダウン: "shishiro botan, shishiro botan button-down, lion girl, lion ears, long hair, black shorts, ear piercing, grey hair, lion tail, ahoge, black sports bra, grey eyes, dog tags, short shorts, bare shoulders, o-ring thigh strap"
+    5周年衣装: "shishiro botan, shishiro botan 5th costume, long hair, cape, detached sleeves, white dress, grey hair, blonde hair, multicolored hair, grey hair, bow, ahoge, blue eyes, night, green eyes, detached collar, lion ears"
+    私服: "shishiro botan, shishiro botan casual, grey hair, lion ears, white shirt, grey eyes, ahoge, off shoulder, lion girl, game controller, t-shirt, very long hair, single bare shoulder, naked shirt, animal ear piercing, indian style, short sleeves,"
+    正月衣装: "shishiro botan, shishiro botan new year, lion ears, double bun, lion girl, grey hair, ahoge, lion tail, grey eyes, ear piercing, tabi, sleeves past fingers, bare shoulders, white kimono, okobo, white socks, platform footwear, sleeveless kimono, wide sleeves, fur-trimmed kimono, off shoulder, short kimono, long sleeves, medium hair, obijime, two side up, hair flower,"
+  尾丸ポルカ:
+    通常衣装: "omaru polka, omaru polka 1st costume, fox ears, purple eyes, fox girl, single glove, animal ear fluff, bare shoulders, navel cutout, facial mark, bowtie, thighhighs, ahoge, elbow gloves, red bow, diamond shape, blue bow, choker, striped clothes, blonde hair, pink hair, black hair, streaked hair, long hair, hair over shoulder, diamond hair ornament, hair bow, x hair ornament, hairclip, single braid, side braid, spade hair ornament, heart hair ornament, club shape"
+    5周年衣装: "omaru polka, omaru polka 5th costume, fox ears, fox tail, blonde hair, long hair, navel, plaid jacket, eyewear on head, fox girl, red shorts, streaked hair, crop top, pink hair, ahoge, red jacket, midriff, animal ear fluff, white shirt, necklace, sunglasses, earrings, black choker, thigh boots, purple eyes, facial mark, cropped shirt, extra ears, off shoulder, heart-shaped eyewear, open jacket, black belt, black thighhighs, short shorts, short sleeves"
+    ストリートカジュアル: "omaru polka, omaru polka street casual, streaked hair, blonde hair, purple eyes, hat, pink hair, brown jacket, white shirt, long sleeves, brown headwear, off shoulder, blue skirt, fox ears, open clothes, shoulder cutout,"
+    制服: "omaru polka, omaru polka school uniform, fox ears, blonde hair, fox tail, fox girl, streaked hair, pink hair, purple eyes, school uniform, bowtie, white shirt, animal ear fluff, very long hair, clothes around waist, hair bow, hairclip, red skirt, blue hair, ponytail, pleated skirt, loose socks, white socks, long sleeves, ahoge, kogal, collared shirt, black hair, blue bow"
+    正月衣装: "omaru polka, omaru polka new year, fox ears, blonde hair, purple eyes, streaked hair, pink hair, fox girl, fox tail, hair bow, bangs pinned back, hair ornament, long hair, bare shoulders, forehead, kimono, blue hair, animal ear fluff, ponytail, blue bow, off shoulder"
+  ラプラス・ダークネス:
+    通常衣装: "la+ darknesss, la+ darknesss 1st costume, streaked hair, yellow eyes, sleeves past fingers, purple hair, ahoge, pointy ears, la+ darknesss horns, very long hair, braid, metal collar, long sleeves, yellow ascot, purple coat, tail, belt, demon girl, side slit"
+    4周年衣装: "la+ darknesss, la+ darknesss 4th costume, yellow eyes, purple hair, pointy ears, streaked hair, ahoge, grey hair, thigh strap, navel, twintails, very long hair, open jacket, la+ darknesss horns, long sleeves, black sailor collar, neckerchief, white jacket, white shirt, tattoo, black shorts, black panties, crop top"
+    私服: "la+ darknesss, la+ darknesss casual, crescent hair ornament, purple necktie, streaked hair, sparkle hair ornament, yellow eyes, purple hair, black jacket, purple choker, short hair, ahoge, grey hair, purple skirt, pointy ears, cross hair ornament, plaid skirt, navel, black belt, ear piercing, la+ darknesss horns, cropped shirt, flame print, white shirt, collared shirt, open jacket, midriff, long sleeves, pleated skirt"
+    正月衣装: "la+ darknesss, la+ darknesss new year, character print, pointy ears, yellow eyes, streaked hair, purple hair, twintails, braid, very long hair, grey hair, jingle bell, la+ darknesss horns, print kimono, floral print, hair bell, sash, long sleeves"
+  鷹嶺ルイ:
+    通常衣装: "takane lui, takane lui 1st costume, pink hair, high-waist shorts, short hair, thigh strap, white shirt, pantyhose under shorts, puffy long sleeves, black gloves, hair wings, black shorts, necktie, brown pantyhose, taut clothes, yellow eyes, multicolored hair, collared shirt, head wings, orange eyes, red coat"
+    4周年衣装: "takane lui, takane lui 4th costume, blue eyes, pink hair, short hair, black gloves, thigh strap, black shorts, long sleeves, black shirt, garter straps, braid, jacket"
+    私服: "takane lui, takane lui casual, blue eyes, short hair, pink hair, black shirt, puffy long sleeves, red ribbon, black-framed eyewear, round eyewear, bespectacled, see-through sleeves, neck ribbon, red skirt, choker"
+    正月衣装: "takane lui, takane lui new year, long hair, pink hair, blue eyes, bow, black hairband, black kimono, obi, long sleeves, choker, hair ornament, wide sleeves"
+  博衣こより:
+    通常衣装: "hakui koyori, hakui koyori (1st costume), lab coat, animal ears, pink hair, thighhighs, long hair, wolf ears, white shirt, crossed bangs, antenna hair, hexagon hair ornament, double bun, pink tail"
+    夏衣装: "hakui koyori, hakui koyori summer, wolf ears, wolf tail, pink hair, wolf girl, purple eyes, underboob, frilled choker, braid, bridal garter, hair ornament, armlet, antenna hair, animal ear fluff, white choker, pink ribbon, bare shoulders, pink choker, bikini, pink bow, bloomers, extra ears, medium hair, bracelet, white skirt"
+    制服: "hakui koyori, hakui koyori school uniform, pink hair, wolf ears, long hair, antenna hair, wolf girl, animal ear fluff, sailor collar, wolf tail, purple eyes, white shirt, white socks, hairclip, pink cardigan, pink bow, bandaid on leg, hair ribbon, plaid skirt, long sleeves, pleated skirt, frilled socks, serafuku, bowtie, o-ring thigh strap, kneehighs, open cardigan, pink ribbon, black choker"
+    正月衣装: "hakui koyori, hakui koyori new year, pink hair, purple eyes, wolf ears, wolf tail, braid, detached sleeves, frills, hair flower, hair bun, bow, animal ear fluff, obi, choker, wolf girl, floral print, vertical-striped kimono, print kimono, kanzashi, white kimono"
+  沙花叉クロヱ:
+    通常衣装: "sakamata chloe, sakamata chloe 1st costume, red eyes, grey hair, hood up, black gloves, torn thighhighs, plaid bow, black hair, x hair ornament, streaked hair, plaid skirt, black jacket, garter straps, red skirt, belt, red bow, medium hair, miniskirt, animal hood, bare shoulders, collar, open jacket, white camisole, off-shoulder jacket, black thighhighs"
+    地雷系衣装: "sakamata chloe, sakamata chloe jirai kei, twin drills, two-sided coat, red eyes, bandaid hair ornament, cleavage cutout, fishnet thighhighs, two-sided fabric, black hair, frilled dress, black dress, grey hair, black bow, x hair ornament, sleeveless dress, black coat, hair bow, streaked hair, heart cutout, o-ring thigh strap, medium hair, black thighhighs, red coat, bandaid on leg, black belt"
+    制服: "sakamata chloe, sakamata chloe school uniform, red eyes, grey hair, black hair, x hair ornament, ear piercing, streaked hair, white shirt, red skirt, plaid skirt, long hair, pleated skirt, long sleeves, school uniform, collared shirt, skirt lift, red bowtie, open clothes, skin fang, hairclip, black choker, pink jacket, earrings, belt, miniskirt"
+    正月衣装: "sakamata chloe, sakamata chloe new year, red eyes, grey hair, streaked hair, black hair, black choker, chest sarashi, hair flower, white kimono, off shoulder, bare shoulders, tassel, single hair bun, long sleeves, bow, single side bun, seigaiha, frilled kimono, sash, thigh strap, braid"
+  風真いろは:
+    通常衣装: "kazama iroha, kazama iroha 1st costume, blonde hair, chest sarashi, black gloves, white thighhighs, ponytail, haori, pleated skirt, black hairband, long sleeves, wide sleeves, aqua eyes, hakama, leaf hair ornament, medium hair"
+    ストリート衣装: "kazama iroha, kazama iroha street, letterman jacket, backwards hat, blonde hair, navel, braid, baseball cap, pink jacket, long hair, cropped shirt, thigh strap, midriff, crop top, white headwear, short shorts, hair bow, belt, denim shorts, aqua eyes, blue eyes, long sleeves, white shirt, open clothes, leaf hair ornament"
+    正月衣装: "kazama iroha, kazama iroha new year, blonde hair, blue eyes, hakama skirt, twintails, frills, hair ornament, raccoon ears, orange kimono, tanuki, medium hair"
+  火威青:
+    通常衣装: "hidoshi ao, hidoshi ao 1st costume, mole under mouth, blue hair, blue eyes, grey jacket, black pants, collared shirt, black belt, long sleeves, blue shirt, earrings, chain necklace, medium hair, black shirt, androgynous, short hair, open clothes, vertical-striped jacket, ear piercing, tomboy"
+  音乃瀬奏:
+    通常衣装: "otonose kanade, otonose kanade 1st costume, musical note hair ornament, long hair, blonde hair, ahoge, white jacket, brown dress, red eyes, one side up, red ribbon, long sleeves, hair ribbon, frills, red bow, open jacket, plaid dress"
+  一条莉々華:
+    通常衣装: "ichijou ririka, ichijou ririka 1st costume, orange eyes, orange hair, eyewear on head, ahoge, white belt, pink shirt, blue skirt, gold earrings, long hair, sunglasses, hairpin, purple skirt, center frills, fur jacket, fur coat, sleeveless shirt, multicolored hair, bra, thigh strap, single earring, bare shoulders"
+  儒烏風亭らでん:
+    通常衣装: "juufuutei raden, juufuutei raden 1st costume, black hair, black gloves, long hair, streaked hair, blunt bangs, blue eyes, black choker, gothic, black dress, grey hair, lace-trimmed choker, two-tone hair, sidelocks, frills, lace choker, lace trim, black ascot, green dress"
+  轟はじめ:
+    通常衣装: "todoroki hajime, todoroki hajime 1st costume, purple eyes, blonde hair, two side up, streaked hair, purple hair, short hair, purple choker, white shirt, white jacket"
+
+古手川:
+  RoLA1:
+    制服:
+      # https://civitai.com/models/342877/yui-kotegawa-to-love-ru
+      <lora:yui-kotegawa-darkness-ponyxl-lora-nochekaiser:0.5>,
+      yui kotegawa, black hair, brown eyes, long hair, mature face, adult face, 
+      green skirt, plaid, plaid skirt, sainan high school uniform, school uniform, skirt, sweater vest, yellow sweater, short sleeves,
+    # 全裸は誰か分からなくなったので不採用
+
+ヨルさん:
+  # https://civitai.com/models/487426/spy-x-family-or-yor-forger-pdxl
+  # いい感じ
+  LoRA3:
+    赤セーター:
+      <lora:Yor_Forger:0.5>, 
+      Yor Forger, yor briar, 
+      simple white hairband, off-shoulder dark red sweater, sweater dress
+    全裸:
+      <lora:Yor_Forger:0.5>, 
+      Yor Forger, yor briar, 
+      simple white hairband, completely nude
+  LoRA3 いばら姫:
+    <lora:Yor_Forger:0.5>,
+    Yor Forger, yor briar, Thorn Princess
+  negative:
+    (censor),monochrome,blurry, lowres, watermark, detached sleeves, puffy sleeves, sleeves, long body, bad anatomy, flower hair ornament, loli, 
+
+ハンコック:
+  LoRA1: <lora:Hancock_Boa:0.5>, Hancock Boa
+  LoRA1 全裸: <lora:Hancock_Boa:0.5>, Hancock Boa, (completely nude:1.2)
+
+金色の闇:
+  # https://civitai.com/models/346406/golden-darkness-yami-to-love-ru
+  # hair ornament の再現性がやや低いかも 三角形にならない
+  # LoRA1:
+  #   全裸:
+  #     <lora:golden-darkness-ponyxl-lora-nochekaiser:0.5>, 
+  #     yami, yellow hair, long hair, red eyes, hair ornament, (black ornament), two side up, medium breasts, completely nude, 
+  #   制服:
+  #     <lora:golden-darkness-ponyxl-lora-nochekaiser:0.5>, 
+  #     yami, yellow hair, long hair, red eyes, hair ornament, (black ornament), two side up, medium breasts, 
+  #     school uniform, shirt, white shirt, bow, green bow, skirt, green skirt, pleated skirt, short skirt, sweater, light brown sweater vest, short sleeves,
+    # 普段着:
+    # 完成度微妙
+    #   <lora:golden-darkness-ponyxl-lora-nochekaiser:0.5>, 
+    #   yami, yellow hair, long hair, red eyes, hair ornament, (black ornament), two side up, medium breasts, 
+    #   sleeveless, detached sleeves, dress, black dress, black skirt, clothing cutout, cleavage cutout,
+  # https://civitai.com/models/497100/to-love-ru-or-konjiki-no-yami-pdxl
+
+
+  # LoRA2:
+  # いい感じだったけど、LoRA3 の方が良かった
+  #   全裸:
+  #     <lora:Konjiki_no_Yami:0.5>,
+  #     Konjiki no Yami, yellow hair, long hair, red eyes, hair ornament, (black ornament), two side up, medium breasts, completely nude, 
+  #   制服:
+  #     <lora:Konjiki_no_Yami:0.5>,
+  #     Konjiki no Yami, yellow hair, long hair, red eyes, hair ornament, (black ornament), two side up, medium breasts, 
+  #     school uniform, shirt, white shirt, bow, green bow, skirt, green skirt, pleated skirt, short skirt, sweater, light brown sweater vest, short sleeves,
+    # 衣装:
+    #   <lora:Konjiki_no_Yami:0.5>,
+    #   Konjiki no Yami, yellow hair, long hair, red eyes, hair ornament, (black ornament), two side up, medium breasts, 
+    #   black dress, sleeveless, detached sleeves, black skirt, clothing cutout, cleavage cutout,
+  # https://civitai.com/models/374348/yabuki-kentarou-ponyanimagine
+  矢吹のカラー画っぽい LoRA:
+    全裸:
+      <lora:YabukiKentarou_Pony_V2:0.55>, 
+      YabukiKentarou, to love-ru, 
+      konjiki no yami, red eyes, blonde hair, hair intakes, long hair, (black hairpods), completely nude, 
+    衣装:
+      <lora:YabukiKentarou_Pony_V2:0.55>, 
+      YabukiKentarou, to love-ru, 
+      konjiki no yami, red eyes, blonde hair, hair intakes, long hair, (black hairpods), 
+      black dress, sleeveless, detached sleeves, black skirt, small cleavage cutout, 2 black belts on stomach, bare legs, 
+
+ダクネス:
+  # https://civitai.com/models/437754/pony-darkness-konosubagods-blessing-on-this-wonderful-world
+  LoRA1:
+    全裸:
+      <lora:Darkness_konosuba_V2:0.5>, 
+      darkness /(konosuba/), (green eyes), mature face, adult face, long hair, blonde hair, (2 x hair ornament), ponytail, braid, large breasts, completely nude, 
+      (completely nude:1.1), 
+    # 崩壊気味なので一旦なしで
+    # 甲冑:
+    #   <lora:Darkness_konosuba_V2:0.5>, 
+    #   darkness /(konosuba/), long hair, (green eyes), blonde hair, x hair ornament, ponytail, braid, large breasts, 
+    #   gloves, armor, bodysuit, shoulder armor, armored dress
+  # https://civitai.com/models/501096/konosuba-or-darkness-pdxl
+  # 微妙だった
+  # LoRA2: 
+  #   <lora:Darkness:0.5>, 
+  #   Darkness,
+
+めぐみん:
+  # https://civitai.com/models/433729/pony-megumin-konosubagods-blessing-on-this-wonderful-world
+  LoRA1:
+    全裸:
+      <lora:Megumin_V1:0.5>, 
+      megumin, short hair, black hair, red eyes, side locks, long locks, small breasts, completely nude, 
+    魔法使い衣装:
+      <lora:Megumin_V1:0.5>, 
+      megumin, short hair, black hair, red eyes, side locks, long locks, small breasts, 
+      thighhighs, hat,red dress, black gloves, belt, black thighhighs, fingerless gloves, 
+      cape, collar, witch hat, bandages, red dress, single thighhigh, asymmetrical legwear, bandaged leg, 
+    # negative:
+    #   cross shaped pupils
+  # https://civitai.com/models/501008/konosuba-or-megumin-pdxl
+  LoRA2:
+    <lora:Megumin:0.5>,
+    Megumin
+  # https://civitai.com/models/375153/konosuba-megumin-xl
+  LoRA3:
+    <lora:megumin_2:0.5>,
+    megumin
+
+フェイト:
+  # https://civitai.com/models/521846/fate-threizeithth
+  LoRA1:
+    base:
+      "<lora:fate_testarossa_pony:0.5>, fate testarossa"
+    黒衣装:
+      blackuniform
+    白:
+      sonicform
+    バリアジャケット:
+      barrierjacket    
+
+リーリエ:
+  # https://civitai.com/models/56025/ponyxl-15-pokemon-lillie
+  全裸:
+    <lora:Lillie_PonyXL:0.5>,
+    1lillie1, blonde hair, long hair, green eyes, small breasts, completely nude,
+  衣装1:
+    <lora:Lillie_PonyXL:0.5>,
+    1lillie1, blonde hair, long hair, green eyes, small breasts,
+    2default2, twin braids, white sunhat, white dress, sleeveless dress, kneehighs, 
+  衣装3:
+    <lora:Lillie_PonyXL:0.5>,
+    1lillie1, blonde hair, green eyes, small breasts,
+    4ponytail4, ponytail, white shirt, white skirt, white socks, 
+
+# ハルカ:
+  # https://civitai.com/models/118940/pony-xl-and-15-may-pokemon
+  # 厳し目
+  # base:
+  #   <lora:mayXL:0.5>,
+  #   may /(pokemon/), bandana, brown hair, red bandana, grey eyes, 
+
+ナンジャモ:
+  # https://civitai.com/models/374554/iono-pokemon
+  lora1: 
+    <lora:pokemon-iono-ponyxl-lora-nochekaiser:0.5>,
+    pokemon iono, blue hair, bow-shaped hair, character hair ornament, hair ornament, long hair, low-tied long hair, multicolored hair, pink hair, sharp teeth, split-color hair, twintails, two-tone hair, pink eyes,
+    asymmetrical legwear, bell, bow-shaped hair, character hair ornament, hexagon print, split-color hair,
+    # oversized clothes, single leg pantyhose, pantyhose, jacket, yellow jacket,
+  lora1_着衣: 
+    <lora:pokemon-iono-ponyxl-lora-nochekaiser:0.5>,
+    pokemon iono, blue hair, bow-shaped hair, character hair ornament, hair ornament, long hair, low-tied long hair, multicolored hair, pink hair, sharp teeth, split-color hair, twintails, two-tone hair, pink eyes,
+    asymmetrical legwear, bell, bow-shaped hair, character hair ornament, hexagon print, split-color hair,
+    single leg pantyhose, 
+  # https://civitai.com/models/366541/iono-pokemon-sv
+  lora2: 
+    <lora:Iono-Autism-SDXL:0.5>,
+    pokemon iono, blue hair, bow-shaped hair, character hair ornament, hair ornament, long hair, low-tied long hair, multicolored hair, pink hair, sharp teeth, split-color hair, twintails, two-tone hair, pink eyes,
+    asymmetrical legwear, bell, bow-shaped hair, character hair ornament, hexagon print, split-color hair,
+  lora2_着衣: 
+    <lora:Iono-Autism-SDXL:0.5>,
+    pokemon iono, blue hair, bow-shaped hair, character hair ornament, hair ornament, long hair, low-tied long hair, multicolored hair, pink hair, sharp teeth, split-color hair, twintails, two-tone hair, pink eyes,
+    asymmetrical legwear, bell, bow-shaped hair, character hair ornament, hexagon print, split-color hair,
+    single leg pantyhose, 
+
+えるたそ:
+  # https://civitai.com/models/1038906/eru-chitanda-hyouka-4-outfits
+  lora1: 
+    School Uniform (Winter):
+      <lora:Eru_Chitanda:0.5>,
+      chitanda eru, black hair, long hair, blunt bangs, purple eyes, serafuku, long sleeves, white shirt, blue sailor collar, blue neckerchief, blue skirt, pleated skirt, white kneehighs, loafers
+    School Uniform (Summer):
+      <lora:Eru_Chitanda:0.5>,
+      ibara mayaka, short hair, short bangs, brown hair, red eyes, serafuku, short sleeves, white shirt, blue sailor collar, blue neckerchief, blue skirt, pleated skirt, white kneehighs, loafers
+    Kimono:
+      <lora:Eru_Chitanda:0.5>,
+      chitanda eru, black hair, short hair, blunt bangs, sidelocks, hair bun, hair ornament, purple eyes, japanese clothes, long sleeves, red kimono, wide sleeves, obi, obijime, obiage, tabi, zouri
+    Bikini:
+      <lora:Eru_Chitanda:0.5>,
+      chitanda eru, black hair, long hair, blunt bangs, sidelocks, ponytail, red hairtie, purple eyes, bikini, white bikini, frilled bikini, side-tie bikini bottom
+  # https://civitai.com/models/787938/eru-chitanda-hyouka
+  lora2:
+    <lora:Eru_Chitanda_-_Hyouka:0.5>, 
+    eru chitanda,long hair,school uniform,kamiyama high school uniform (hyouka),serafuku,bangs
+
+アスナ(ブルアカ):
+  メイド服:
+    <lora:ichinose_asuna_ponyxl_v1:0.5>, 
+    bbasuna, very long hair, light brown hair, halo, hair ribbon, maid headdress, headphones, blue eyes, large breasts, 
+    mole on breast, black choker, maid, blue bowtie, cleavage, black dress, short sleeves, white gloves, white apron, garter straps, white thighhighs
+  バニーガール:
+    <lora:ichinose_asuna_ponyxl_v1:0.5>, 
+    aaasuna, very long hair, light brown hair, halo, rabbit ears, hair ribbon, hair over one eye, blue eyes, large breasts, 
+    mole on breast, playboy bunny, detached collar, blue bowtie, cleavage, blue leotard, elbow gloves, white gloves, black pantyhose
+  制服:
+    <lora:ichinose_asuna_ponyxl_v1:0.5>, 
+    aaasuna, very long hair, light brown hair, halo, hair ribbon, hair over one eye, blue eyes, large breasts, 
+    black choker, school uniform, blue bowtie, collared shirt, white shirt, sleeves rolled up, wrist scrunchie, shirt tucked in, pleated skirt, black skirt
+  チアリーダー:
+    aaasuna, very long hair, light brown hair, halo, hair ribbon, hair over one eye, blue eyes, sticker on face, star (symbol), large breasts, 
+    mole on breast, cheerleader, detached collar, cleavage, crop top, multicolored clothes, sleeveless, pom pom (cheerleading), midriff, miniskirt, white skirt
+  

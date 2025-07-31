@@ -1,0 +1,43 @@
+あくあ:
+  服なしセット: 
+    (minato aqua:1.46), 
+    (purple hair:1.2), (french braid:1.2), (light blue inner hair:1.2), light blue mesh, (long hair:1.2), (pink eyes:1.2), (child-faced:1.2), 
+    (huge breasts:1.4)
+
+ラミィ: 
+  服なしセット:
+    (yukihana lamy:1.46), 
+    (elf ears:1.2), (light blue hair:1.2), (french braid:1.2), (long hair:1.2), (heart ahoge:1.4), (yellow eyes:1.2), (adult face:1.25), 
+    (huge breasts:1.4)
+  LoRA1: 
+    <lora:CHAR-LamyChameleonAI_v1.0:0.5>, Lamy
+
+フブキ:
+  服なしセット: 
+    (shirakami fubuki:1.46), 
+    (animal ears:1.21), (green eyes:1.21), (white hair:1.21), (single side braid:1.2), (ahoge:1.2), 
+    (fox tail), 
+    (huge breasts:1.2)
+  LoRA1: 
+    <lora:fubuker1-000007:0.6>, fubuki1
+  LoRA2 (self): 
+    <lora:fubuki_v2:0.6>, fubuki
+
+
+ヨルさん:
+  赤い服セット:
+    yor briar, 
+    black hair, (red eyes:1.4), earrings, white hairband, hairband, long hair, sidelocks, jewelry, earrings, adult face, mature face, 
+    midium breasts, bare shoulders, collarbone, 
+    dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, red sweater, sweater, sweater dress
+    <lora:yor:0.5>
+
+古手川:
+  古手川セット(制服):
+    yui kotegawa, 
+    black hair, (brown eyes:1.5), long hair, 
+    sainan high school uniform, school uniform, sweater vest, (yellow sweater:1.3), light green bow tie, short sleeves, green skirt, plaid, plaid skirt
+  アソコ描写:
+    (pussy:1.4)
+  LoRA1: 
+    <lora:yui kotegawa darkness-lora-nochekaiser:0.5>

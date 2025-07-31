@@ -1,0 +1,138 @@
+ナンジャモ:
+  # https://civitai.com/models/318850/iono-the-supercharged-streamer-or-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:IonoPokemonIXL_e08:0.5>,
+    zzIono, long hair, pink eyes, blue hair, pink hair, light blue hair, multicolored hair, bow-shaped hair,
+  服あり:
+    <lora:IonoPokemonIXL_e08:0.5>,
+    zzIono, long hair, pink eyes, blue hair, pink hair, light blue hair, multicolored hair, bow-shaped hair, 
+    yellow jacket, sleeves past fingers, single leg pantyhose, thigh strap
+
+メイ:
+  # https://civitai.com/models/517316/rosa-pokemon-xl-pony-flux-illustrious
+  服なし:
+    <lora:Rosa_Illustrious:0.5>,
+    blue_eyes, white_pupils, brown_hair, long_hair, double_bun, twintails, medium_breasts
+  服あり:
+    <lora:Rosa_Illustrious:0.5>,
+    blue_eyes, white_pupils, brown_hair, long_hair, double_bun, twintails, medium_breasts, 
+    visor_cap, black_pantyhose, yellow_skirt, raglan_sleeves, white_shirt, blue_sleeves
+
+マリィ:
+  # https://civitai.com/models/190310/marnie-dark-delicacy-or-pokemon-best-girl-pony-and-illustrious-and-flux-and-sd15
+  服なし:
+    <lora:MarniePokemonIllustrious_e09:0.5>,
+    zzMarnie, aqua eyes, black choker,
+  服あり:
+    <lora:MarniePokemonIllustrious_e09:0.5>,
+    zzMarnie, aqua eyes, black choker, 
+    red ribbon, pink dress, jewelry, black jacket, open clothes, long sleeves,
+
+スイレン:
+  # https://civitai.com/models/126768/lana-water-lily-or-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:LanaPokemonIXL_e06:0.5>,
+    zzLana, yellow hairpiece, blue hair,
+  服あり:
+    <lora:LanaPokemonIXL_e06:0.5>,
+    zzLana, yellow hairpiece, blue hair, 
+    white shirt, sleeveless shirt,  sailor collar, blue pants, baggy pants,
+
+ユウリ:
+  # https://civitai.com/models/342282/gloria-scottish-pokemon-trainer-or-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:GloriaPokemonIXL:0.5>,
+    zzGloria, brown hair, brown eyes,
+  服あり1:
+    <lora:GloriaPokemonIXL:0.5>,
+    zzGloria, brown hair, brown eyes, 
+    green hat, grey cardigan, hooded cardigan, cable knit, pink dress, green socks, long sleeves, collared dress
+  服あり2:
+    <lora:GloriaPokemonIXL:0.5>,
+    zzGloria, brown hair, brown eyes, 
+    gloriaUniform, collared shirt, white socks, white shorts, short shorts, kneehighs, striped shirt, print shirt, vertical stripes,
+  服あり3:
+    <lora:GloriaPokemonIXL:0.5>,
+    zzGloria, brown hair, brown eyes, 
+    gloriaDojo, yellow jacket, black shirt, black shorts, knee pads,  short hair, single hair bun, collarbone,
+  服あり4:
+    <lora:GloriaPokemonIXL:0.5>,
+    zzGloria, brown hair, brown eyes, 
+    gloriaSummer, blue sarong, blue shirt, hair flower,  jewelry, navel, necklace, official alternate costume,
+
+ハルカ:
+  # https://civitai.com/models/422916/may-its-gonna-be-may-or-nsync-x-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:MayPokemonIXL_v2:0.5>,
+    zzMay, may (pokemon), solo, brown hair, blue eyes, medium hair,
+  服あり:
+    <lora:MayPokemonIXL_v2:0.5>,
+    zzMay, may (pokemon), solo, brown hair, blue eyes, medium hair, 
+    red shirt, bike shorts, red bandana, red shirt, gloves,  white miniskirt, yellow belt,
+
+
+ヒカリ:
+  # https://civitai.com/models/451631/dawn-cute-coordinator-or-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:DawnPokemonIXL_e07:0.5>,
+    zzDawn, blue hair, blue eyes, sidelocks, long hair,
+  服あり:
+    <lora:DawnPokemonIXL_e07:0.5>,
+    zzDawn, blue hair, blue eyes, sidelocks, long hair, 
+    bare shoulders, beanie, black shirt, black socks, bracelet, hat, jewelry, kneehighs, miniskirt, pink skirt, red scarf, scarf, shirt, skirt, sleeveless, sleeveless shirt, white headwear,
+
+
+シロナ:
+  # https://civitai.com/models/364234/cynthia-diamond-queen-or-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:CynthiaPokemonIXL:0.5>,
+    zzCynthia, solo, 1girl,  blonde, long hair,
+  服あり:
+    <lora:CynthiaPokemonIXL:0.5>,
+    zzCynthia, solo, 1girl,  blonde, long hair, 
+    black coat, black pants,
+
+
+ナツメ:
+  # https://civitai.com/models/290782/sabrina-psychic-supremacy-or-pokemon-illustrious-and-pony-and-sd15
+  服なし:
+    <lora:SabrinaPokemonIXL:0.5>,
+    zzSabrina, red eyes, long hair, blunt bangs, sabrina (pokemon), purple hair,
+  服あり:
+    <lora:SabrinaPokemonIXL:0.5>,
+    zzSabrina, red eyes, long hair, blunt bangs, sabrina (pokemon), purple hair, 
+    pantyhose, black hair, long sleeves, red skirt, white gloves, black bodysuit,
+
+
+アセロラ:
+  # https://civitai.com/models/344307/acerola-angelic-apparition-or-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:AcerolaPokemonIXL:0.5>,
+    acerola (pokemon), purple hair, purple hair, topknot, flipped hair,
+  服あり:
+    <lora:AcerolaPokemonIXL:0.5>,
+    acerola (pokemon), purple hair, purple hair, topknot, flipped hair, 
+    collarbone, purple dress, stitches, multicolored dress, armlet,
+
+
+セレナ:
+  # https://civitai.com/models/523947/serena-french-flower-or-pokemon-pony-and-illustrious-and-sd15
+  服なし:
+    <lora:SerenaPokemonIXL_v2:0.5>,
+    zzSerena, solo, long hair, blue eyes,
+  服あり:
+    <lora:SerenaPokemonIXL_v2:0.5>,
+    zzSerena, solo, long hair, blue eyes, 
+    eyewear on headwear, pink headwear, eyelashes, sleeveless shirt, black shirt, bracelet, high-waist skirt, red skirt, black thighhighs,
+
+
+サンゴ:
+  # https://civitai.com/models/637068/sango-coral-admin-sandwich-or-pokemon-illustrious-and-pony-and-sd15
+  服なし:
+    <lora:SangoPokemonIXL_v1:0.5>,
+    zzSango, pink hair, twintails, blunt bangs
+  服あり:
+    <lora:SangoPokemonIXL_v1:0.5>,
+    zzSango, pink hair, twintails, blunt bangs, 
+    hair ornament, belt, long sleeves, sleeves past fingers, black skirt, black choker, black crop top, bare shoulders, yellow belt, bandaid, midriff, collarbone,
+

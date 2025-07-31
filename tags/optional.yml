@@ -1,0 +1,141 @@
+全体効果:
+  湯気: humid, steam
+  ハート吹き出し: (spoken heart:1.2)
+  # https://civitai.com/models/1107755/enhanced-sound-effects
+  SE: a few sound effects, <lora:sound_effects:1>, heart in spoken text,  
+  詳細: <lora:AddMicroDetails_Illustrious:0.3>, 
+
+顔:
+  眉をひそめる: frown
+  軽く眉をひそめる: light frown
+  恥ずかしい: embarrassing
+  ニヤリ: grin
+  アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+  ハードアヘ顔: open mouth, (crossed eyes, rolling eyes:1.2), 
+  眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  涙: tears
+
+場所:
+  旅館_布団: on futon, in japanese ryokan, 
+  温泉の中: outdoor hot spring, in water, 
+  ホテル: on bed, in hotel, 
+  暗いホテル: on bed, in hotel, dark room, 
+  地下: under ground, 
+
+表情:
+  あくたん:
+    軽く眉をひそめる: light frown
+    恥ずかしい: embarrassing
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  古手川:
+    怒り: blush, little angry
+    軽く眉をひそめる: light frown
+    恥ずかしい: embarrassing
+    赤面: blush
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  ハンコック:
+    恥ずかしい: embarrassing
+    赤面: blush
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    怒り: blush, little angry
+    なし: " "
+  ヨルさん:
+    軽く眉をひそめる: light frown
+    恥ずかしい: embarrassing
+    赤面: blush
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  ダクネス:
+    軽く眉をひそめる: light frown
+    赤面: blush, embarrassing
+    怒り: blush, little angry
+    赤面笑顔: blush, crazy smile, open mouth
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  めぐみん:
+    軽く眉をひそめる: light frown
+    恥ずかしい: embarrassing
+    赤面: blush
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  金色の闇:
+    軽く眉をひそめる: light frown
+    恥ずかしい: embarrassing
+    赤面: blush
+    怒り: blush, little angry
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  リーリエ:
+    軽く眉をひそめる: light frown
+    恥ずかしい: embarrassing
+    赤面: blush
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  さかまた:
+    軽く眉をひそめる: light frown
+    恥ずかしい: embarrassing
+    赤面: blush
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+    怒り: blush, little angry
+    赤面嫌悪: full-face blush, disgust, clenched teeth, looking away, 
+  ナンジャモ:
+    幸せ: so happy, blush
+    笑顔: smile, heart eyes
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam
+    オホ顔: ohogao,  <lora:Ohogao_illustrious_v1:0.3>, 
+    恥ずかしい: embarrassing
+    軽く眉をひそめる: frown
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing
+  フェイト:
+    幸せ: so happy, blush,
+    笑顔: smile, heart eyes,
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam,
+    オホ顔: ohogao,  <lora:Ohogao_illustrious_v1:0.3>, 
+    恥ずかしい: embarrassing,
+    赤面: full-face blush,
+    軽く眉をひそめる: frown,
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing,
+  ミオしゃ:
+    眠そうな顔: sleepy, (half-closed eyes:1.1), open mouth, heavy breathing,
+    恥ずかしい: embarrassing,
+    幸せ: so happy, blush,
+    アヘ顔: open mouth, (crossed eyes:1.2), ahegao, humid, steam,
+    オホ顔: ohogao,  <lora:Ohogao_illustrious_v1:0.3>, 
+  ラミィ:
+    軽く眉をひそめる: 
+      frown, blush, embarrassing, 
+      a few sound effects, <lora:sound_effects:1>, 
+    恥ずかしい: 
+      embarrassing, open wavy mouth, 
+      a few sound effects, <lora:sound_effects:1>, 
+    幸せ: 
+      a few sound effects, <lora:sound_effects:1>, heart in spoken text, 
+      so happy, open mouth, blush,
+    オホ顔: 
+      a few sound effects, <lora:sound_effects:1>, heart in spoken text, 
+      ohogao, <lora:Ohogao_illustrious_v1:0.6>, humid, steam,
+    アヘ顔:
+      a few sound effects, <lora:sound_effects:1>, heart in spoken text,  
+      open mouth, (crossed eyes:1.2), ahegao, humid, steam,
+  星川:
+    幸せ: 
+      a few sound effects, <lora:sound_effects:1>, heart in spoken text, 
+      so happy, open mouth, blush,
+    笑顔: 
+      smile, heart eyes, 
+      a few sound effects, <lora:sound_effects:1>, 
+    軽く眉をひそめる: 
+      frown, blush, embarrassing, 
+      a few sound effects, <lora:sound_effects:1>, 
+    恥ずかしい: 
+      embarrassing, open wavy mouth, 
+      a few sound effects, <lora:sound_effects:1>, 
+    オホ顔: 
+      a few sound effects, <lora:sound_effects:1>, heart in spoken text, 
+      ohogao, <lora:Ohogao_illustrious_v1:0.6>, humid, steam,
+    アヘ顔:
+      a few sound effects, <lora:sound_effects:1>, heart in spoken text,  
+      open mouth, (crossed eyes:1.2), ahegao, humid, steam,

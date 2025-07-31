@@ -1,0 +1,222 @@
+ミオしゃ:
+  RoLA1:
+  # https://civitai.com/models/1061193/ookami-mio-7-outfits-illustrious-hololive
+    服なし:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      hair ornament, yellow eyes,
+      completely nude, (large brests, mature body:1.1), 
+    Default Outfit:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      miodef, hair ornament, sailor collar, red necktie, black shirt, black skirt, detached sleeves, midriff, 
+    Streetwear:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      miostreet, side braid, brown cardigan, open cardigan, white shirt, high-waist, 
+    Casual Hoodie:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      miohood, long hair, hair ornament, two-tone hoodie, short shorts, black shorts
+    Another:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      mioIL, mioanother, sailor collar, neckerchief, crop top, midriff, shorts, 
+    New Years:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      miokimono, ponytail, hair ornament, red kimono, flower print, white apron, frills, wrist cuffs, maid headdress, 
+    Wonderland:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      miowonder, hair over one eye, twintails, white dress, black skirt, elbow gloves, corset, short puffy sleeves, hair flower, 
+    Hololive Summer 2019:
+      <lora:kroniIL:0.5>,
+      mioIL, wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      mioswim, hair ornament, bikini, front-tie top, white shorts, 
+  RoLA2:
+  # https://civitai.com/models/1043282/illustriousxl-hololive-ookami-mio-1st-costume-hololive
+    服なし:
+      <lora:Ookami-Mio(iXL)V1:0.5>,
+      ookami mio, ookami mio (1st costume), wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      completely nude, large brests, 
+    服あり:
+      <lora:Ookami-Mio(iXL)V1:0.5>,
+      ookami mio, ookami mio (1st costume), wolf ears, wolf tail, wolf girl, black hair, red hair, long hair, multicolored hair, streaked hair, flipped hair, hairclip, 
+      bell, hair ornament, red choker, yellow eyes,
+      black serafuku, black shirt, red necktie, sleeveless, detached sleeves, side slit, black skirt, pleated skirt, white thighhighs, zettai ryouiki, midriff peek, navel
+
+ぼたん:
+  # https://civitai.com/models/1161300/shishiro-botan-6-outfits-illustrious-hololive
+  服なし:
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botandef, long hair, navel, hair between eyes, two side up, 
+  オリジナル服:
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botandef, long hair, navel, fur-trimmed jacket, hair between eyes, two side up, black jacket, black shirt, midriff, grey skirt, necklace, bare shoulders, miniskirt, single leg pantyhose, black pantyhose, sleeveless shirt, o-ring, 
+  カジュアルジャケットなし:
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botancasual, long hair, hair between eyes, off shoulder, black choker, short sleeves, white shirt, short shorts, bra strap, choker, 
+  カジュアルジャケットあり:
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botancasual, long hair, hair between eyes, off shoulder, black choker, short sleeves, white shirt, short shorts, bra strap, choker, 
+    black jacket, open jacket, long sleeves, sleeves past wrists, 
+  Button-down(without vest):
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botanbdown, long hair, thigh strap, black shorts, short shorts, black pantyhose, black vest, hair between eyes, collared shirt, long sleeves, white shirt, dress shirt, o-ring
+  Button-down(with vest):
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botanbdown, long hair, thigh strap, black shorts, short shorts, black pantyhose, hair between eyes, collared shirt, long sleeves, white shirt, dress shirt, o-ring
+  Button-down(sports bra ver.):
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botanbdown, long hair, thigh strap, black shorts, short shorts, black pantyhose, dog tags, black sports bra, 
+  Kimono:
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botannewyear, sidelocks, japanese clothes, hair between eyes, sleeveless kimono, off shoulder, fur-trimmed kimono, double bun, obi, bare shoulders, sash, hair flower, white kimono, sleeves past fingers, 
+  5th Outfit:
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botan5th, long hair, hair between eyes, white dress, detached sleeves, hair flower, cape, white thighhighs, veil, 
+  Jirai Kei(red & black):
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botanjiraikei, long hair, x hair ornament, black thighhighs, long sleeves, jirai kei, skirt, frills, thigh strap, detached sleeves, shoulder cutout, high-waist skirt, black bow, ribbon, frilled shirt, black skirt, suspenders,
+  Jirai Kei(pink + white):
+    <lora:botanIL:0.5>,
+    botanIL, ear piercing, lion tail, 
+    botanjiraikei, long hair, twintails, x hair ornament, black thighhighs, long sleeves, jirai kei, skirt, frills, thigh strap, detached sleeves, shoulder cutout, high-waist skirt, black bow, ribbon, frilled shirt, suspenders, pink shirt, white skirt, sleeveless shirt,  
+
+あくたん:
+  # https://civitai.com/models/1214295/minato-aqua-9-outfits-illustrious-hololive
+  服なし:
+    <lora:aquaIL:0.5>,
+    aquaIL,
+    aquadef, long hair, twintails, ahoge, blunt bangs, hair ribbon, braid, maid headdress, 
+    blue bow, anchor symbol, wrist cuffs, blue ribbon, maid, blue nail polish, blue nails, 
+  メイド服:
+    <lora:aquaIL:0.5>,
+    aquaIL,
+    aquadef, long hair, twintails, ahoge, blunt bangs, hair ribbon, braid, maid headdress, blue dress, puffy short sleeves, blue bow, anchor symbol, wrist cuffs, blue ribbon, maid, blue bowtie, frilled dress, blue nail polish, blue nails, dress bow, anchor print, 
+  セーラー服:
+    <lora:aquaIL:0.5>,
+    aquaIL,
+    aquasailor, long hair, twintails, ahoge, ribbon choker, blue choker, blue hairband, anchor hair ornament, blue sailor collar, white shirt, long sleeves, high-waist skirt, blue skirt, pleated skirt, white jacket, open jacket, blue bow, blue ribbon, anchor symbol, white pantyhose, jacket, collarbone, 
+  2019 Bikini:
+    <lora:aquaIL:0.5>,
+    aquaIL,
+    aquakini, long hair, braid, twintails, ahoge, blue ribbon, hair ribbon, bare shoulders, collarbone, striped bikini, front-tie bikini top, halterneck, side-tie bikini bottom, 
+マリン:
+  # https://civitai.com/models/1198163/houshou-marine-12-outfits-illustrious-hololive
+  服なし:
+    <lora:marineIL:0.5>,
+    marineIL,
+    marinedef, twintails, hair ribbon,  
+  海賊:
+    <lora:marineIL:0.5>,
+    marineIL,
+    marinedef, twintails, hair ribbon, red ascot, red skirt, belt, leotard under clothes, black leotard, black thighhighs, covered navel, 
+  ゴスロリ:
+    <lora:marineIL:0.5>,
+    marineIL,
+    marinegothic, twintails, red dress, frills, detached sleeves, black gloves, corset, black ribbon, black bowtie, white thighhighs, 
+  ビキニ:
+    <lora:marineIL:0.5>,
+    marineIL,
+    marinekini, long hair, red bikini, white shorts, black jacket, baseball cap, black headwear, heart-shaped eyewear, 
+  オフィスカジュアル:
+    <lora:marineIL:0.5>,
+    marineIL,
+    marinebusiness, collared shirt, sleeveless, high-waist skirt, pantyhose, blue jacket, fur trim, fingerless gloves, id card, lanyard, 
+  クマリン黒:
+    <lora:marineIL:0.5>,
+    marineIL,
+    kumarine, long hair, long sleeves, black dress, criss-cross halter, cleavage, heart earrings, animal hood, 
+  クマリン白:
+    <lora:marineIL:0.5>,
+    marineIL,
+    kumarine, long sleeves, white dress, criss-cross halter, cleavage, heart earrings, hairband, off shoulder, open jacket, 
+  シスター:
+    <lora:marineIL:0.5>,
+    marineIL,
+    marinenun, habit, blue dress, underboob, breast curtains, pelvic curtain, garter belt, white thighhighs, 
+
+ラミィ:
+  RoLAなし:
+    服なし:
+      yukihana lamy, blue hair, yellow eyes, hair flower, heart ahoge, side braid, elf, huge breasts, mature face, mature body, 
+  RoLA1(Clip=1):
+  # https://civitai.com/models/1471118/yukihana-lamy-hololive-6-outfits-ixl
+    服なし:
+      服なし1:
+        <lora:Yukihana_Lamy:0.8>,
+        Yukihana Lamy, elf, pointy ears, blue hair, streaked hair, heart ahoge, yellow eyes, large breasts, 
+        lamydef, long hair, half updo, side braid, hair flower, 
+      服なし2:
+        <lora:Yukihana_Lamy:1>,
+        Yukihana Lamy, elf, pointy ears, blue hair, streaked hair, heart ahoge, yellow eyes, huge breasts, 
+        lamynewyear, long hair, low twintails, pom pom hair ornament, hair clip, animal ears, cat ears, animal ear fluff, cat tail, 
+      服なし3:
+        <lora:Yukihana_Lamy:1>,
+        Yukihana Lamy, elf, pointy ears, blue hair, streaked hair, heart ahoge, yellow eyes, huge breasts, 
+        lamycyber, very long hair, low twintails, side braids, double-parted bangs, 
+    オリジナル:
+      ベース:
+        Yukihana Lamy, elf, pointy ears, blue hair, streaked hair, heart ahoge, yellow eyes,
+      服1:
+        Yukihana Lamy, elf, pointy ears, blue hair, streaked hair, heart ahoge, yellow eyes,
+        lamydef, long hair, half updo, braid, hair flower, 
+        white hat, beret, blue coat, fur trim, blue bow, sleeveless shirt, cleavage, corset, belt, blue skirt, frills, white thighhighs, brown boots,
+      服2:
+        Yukihana Lamy, elf, pointy ears, blue hair, streaked hair, heart ahoge, yellow eyes,
+        lamynewyear, long hair, low twintails, pom pom hair ornament, hair clip, animal ears, cat ears, animal ear fluff, cat tail, 
+        japanese clothes, blue kimono, floral print kimono, blue hakama, sash, lace-up boots, fur-trimmed boots,
+      服3:
+        Yukihana Lamy, elf, pointy ears, blue hair, streaked hair, heart ahoge, yellow eyes,
+        lamycyber, very long hair, low twintails, side braids, double-parted bangs, 
+        baseball cap, cat hat, character name, black choker, black jacket, sleeves past fingers, wide sleeves, open jacket, white tank top, fishnet top, crop top, black shorts, white belt, thigh strap, bandaid on leg, fishnet socks, uneven legwear, platform boots,
+
+ぺこらママ:
+  # https://civitai.com/models/1342206/pekomama-hololive-vtuber-illustrious?modelVersionId=1515742
+  服なし:
+    pekomama, mature female, rabbit girl, rabbit-shaped pupils, short eyebrows, braided ponytail, rabbit ears, thick eyebrows, animal ear fluff, braid, red eyes, 
+
+かざま:
+  # https://civitai.com/models/20811/illustrious-sd15-kazama-iroha-hololive
+  服なし:
+    <lora:kazama_iroha_ilxl_v1:1>,
+    aairoha, blonde hair, ponytail, hair ribbon, black hairband, aqua eyes, medium breasts, 
+  服1:
+    <lora:kazama_iroha_ilxl_v1:1>,
+    aairoha, blonde hair, ponytail, hair ribbon, black hairband, aqua eyes, medium breasts, 
+    cleavage, chest sarashi, white haori, wide sleeves, fingerless gloves, black gloves, covered navel, green skirt, pleated skirt, white thighhighs
+
+あやめ:
+  # https://civitai.com/models/1424820?modelVersionId=1696479
+  服なし:
+    <lora:Nakiri_Ayame_-_Hololive_IXL_7_outfits:1>,
+    nakiri ayame, oni, oni horns, white hair, red hair, streaked hair, gradient hair, red eyes,
+  服なし2:
+    <lora:Nakiri_Ayame_-_Hololive_IXL_7_outfits:1>,
+    nakiri ayame, oni, oni horns, white hair, red hair, streaked hair, gradient hair, red eyes,
+    ayamedef, long hair, two side up, hair bun, double bun, hair bell, 
+  服あり:
+    <lora:Nakiri_Ayame_-_Hololive_IXL_7_outfits:1>,
+    nakiri ayame, oni, oni horns, white hair, red hair, streaked hair, gradient hair, red eyes,
+    ayamedef, long hair, two side up, hair bun, double bun, hair bell, 
+    japanese clothes, kimono, black kimono, bare shoulders, tabi, thighhighs, ribbon-trimmed legwear, red ribbon, shimenawa, oni mask, mask on head,

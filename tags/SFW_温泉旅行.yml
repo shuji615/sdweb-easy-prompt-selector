@@ -1,0 +1,33 @@
+SFW:
+  正方形:
+    露天風呂でリラックス1:
+      (masterpiece, best quality), from side, 
+      night, outdoor hot spring, starry sky, moon, silhouette of mountains, tranquil and magical atmosphere,
+      1girl, so happy, smiling, soaking in hot spring, looking at viewer, peaceful and serene expression,
+      only shoulders and head above water, wet hair glistening, completely nude,
+  縦長:
+    露天風呂でリラックス_近く:
+      (masterpiece, best quality), from close side above, portrait, 
+      night, outdoor hot spring, 
+      1girl, so happy, smiling, soaking in hot spring, looking at viewer, (leaning back against the edge of the hot spring), 
+      only shoulders and head above water, wet hair glistening, completely nude, 
+    部屋でくつろぎ:
+      (masterpiece, best quality), 
+      cozy traditional Japanese Ryokan room with tatami mats, soft indoor lighting, relaxed atmosphere, from side, very close, 
+      1 girl, sitting on zabuton cushion, wariza, leaning against low table, holding tea cup, green tea, looking up at viewer, gentle smile,
+      wearing light blue yukata, a cup of green tea on the table, peaceful expression, 
+    部屋でくつろぎ_近く:
+      (masterpiece, best quality), 
+      Japanese Ryokan room with tatami mats, looking into viewer, portrait, from close side above, 
+      1 girl, wearing light blue yukata, sitting,  
+    料理:
+      (masterpiece, best quality),
+      dinner table filled with Japanese Kaiseki cuisine, various small dishes, chopsticks, delicious food,
+      1 girl, sitting at the table, about to eat, looking at the food with anticipation,
+      wearing light blue kimono, excited expression,
+    料理 (RoLA):
+      <lora:heyashoku:0.6>, 
+      (masterpiece, best quality),
+      dinner table filled with Japanese Kaiseki cuisine, various small dishes, chopsticks, delicious food, table, heyashoku, 
+      1 girl, sitting at the table, about to eat, looking at the food with anticipation,
+      wearing light blue kimono, excited expression,

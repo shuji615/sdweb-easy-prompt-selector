@@ -1,0 +1,8 @@
+場所_学生:
+  学校: classroom
+  ベッドルーム: on bed, bedroom
+
+場所_大人:
+  ベッドルーム: on bed, bedroom
+  外: outside
+  道: on street

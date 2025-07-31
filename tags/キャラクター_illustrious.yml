@@ -1,0 +1,179 @@
+フェイト:
+  # https://civitai.com/models/1088575/fate-testarossa-fate-t-harlaown-3-outfits-magical-girl-lyrical-nanoha-strikers-strikers?modelVersionId=1234439
+  LoRA1:
+    全裸:
+      <lora:Fate_T_HarlaownNEW_ILLUS:0.5>,
+      c-testarossa, blonde hair, red eyes, twintails, very long hair, hair ribbon, large breasts, completely nude, 
+    黒衣装:
+      <lora:Fate_T_HarlaownNEW_ILLUS:0.5>,
+      c-testarossa, blonde hair, red eyes, twintails, very long hair, hair ribbon, large breasts, 
+      black leotard, pelvic curtain, red strap, red belt, black thighhighs, armored boots,
+    白紺戦闘服:
+      <lora:Fate_T_HarlaownNEW_ILLUS:0.5>,
+      c-testarossa, blonde hair, red eyes, twintails, very long hair, hair ribbon, large breasts,
+      blue coat, white cape, red belt, long sleeves, black gloves, black thighhighs, waist cape,
+    茶色の制服:
+      <lora:Fate_T_HarlaownNEW_ILLUS:0.5>,
+      c-testarossa, blonde hair, red eyes, low-tied long hair, very long hair, hair bow, large breasts,
+      brown jacket, brown skirt, black pantyhose,
+
+佐天さん:
+  # https://civitai.com/models/1198106/saten-ruiko-toaru-kagaku-no-railgun?modelVersionId=1349118
+  服なし:
+    <lora:Saten Ruiko(omrg)-Illus:0.5>,
+    Saten Ruiko, 
+    long hair,black hair,hair ornament,hair flower,sidelocks,bangs,black eyes,
+  服あり:
+    <lora:Saten Ruiko(omrg)-Illus:0.5>,
+    Saten Ruiko, 
+    long hair,black hair,hair ornament,hair flower,sidelocks,bangs,black eyes,
+    casual clothes no.1,
+    bare shoulders,camisole,white shirt,frilled shirt,medium breasts,dark blue pants,capri pants,pants rolled up,sandals,red footwear
+
+食蜂:
+  # https://civitai.com/models/1199773/shokuho-misaki-toaru-kagaku-no-railgun?modelVersionId=1350970
+  服なし:
+    <lora:Shokuho Misaki(tkr)-Illus:0.5>,
+    Shokuho Misaki,
+    long hair,blonde hair,sidelocks,hair between eyes,parted bangs,brown eyes,sparkling eyes,
+  服あり:
+    <lora:Shokuho Misaki(tkr)-Illus:0.5>,
+    Shokuho Misaki,
+    long hair,blonde hair,sidelocks,hair between eyes,parted bangs,brown eyes,sparkling eyes,
+    tokiwadai school uniform,brown sweater vest,white shirt,collared shirt,short sleeves,elbow gloves,white gloves,large breasts,miniskirt,grey skirt,pleated skirt,zettai ryouiki,white thighhighs,loafers
+
+美琴:
+  # https://civitai.com/models/1198152/misaka-mikoto-toaru-kagaku-no-railgun?modelVersionId=1349170
+  服なし:
+    <lora:Misaka mikoto(omrg)-Illus:0.5>,
+    Misaka mikoto,
+    baseball cap,alternate hairstyle,short hair,short ponytail,brown hair,hair between eyes,bangs,brown eyes,
+  服あり:
+    <lora:Misaka mikoto(omrg)-Illus:0.5>,
+    Misaka mikoto,
+    baseball cap,alternate hairstyle,short hair,short ponytail,brown hair,hair between eyes,bangs,brown eyes,
+    casual clothes,
+    collarbone,bra strap,t-shirt,black shirt,heart print,electricity,electrokinesis,green shorts,short shorts,sneakers,
+  
+星奈:
+  # https://civitai.com/models/1188173/commission-boku-wa-tomodachi-ga-sukunai-next-or-sena-kashiwazaki-or-illustrious
+  服なし:
+    <lora:commission-Haganai-Sena_Kashiwazaki-IL:0.5>,
+    Sena Kashiwazaki,
+    butterfly hair ornament, blonde hair, long hair, aqua eyes,
+
+ライザ:
+  # https://civitai.com/models/1182221/reisalin-stout-ryza-no-atelier?modelVersionId=1330493
+  服なし:
+    <lora:Reisalin_Stout_Ryza_no_Atelier:0.5>,
+    Reisalin, Stout Ryza no Atelier, 
+    brown hair, brown eyes, short hair,
+    hair ornament, hat, necklace, star necklace, jewelry, hairclip, white headwear, 
+  服あり:
+    <lora:Reisalin_Stout_Ryza_no_Atelier:0.5>,
+    Reisalin, Stout Ryza no Atelier, 
+    brown hair, brown eyes, short hair,
+    hair ornament, hat, short shorts, red shorts, necklace, star necklace, jewelry, hairclip, white headwear,star (symbol), belt, 
+    thighs, cleavage, collarbone, yellow jacket,shirt, single brown glove, detached sleeves, navel, toeless footwear, toeless legwear,open toe boots,
+    Staff, weapon,
+
+CC:
+  # https://civitai.com/models/956792/cc-code-geass-illustriousxl
+  服なし:
+    c.c., green hair, yellow eyes, long hair,
+  ボディスーツ:
+    c.c., green hair, yellow eyes, long hair,
+    white bodysuit, straitjacket
+  制服:
+    c.c., green hair, yellow eyes, long hair,
+    ashford academy school uniform, black pantyhose, tan uniform
+
+ティファ:
+  # https://civitai.com/models/1242549/tifa-lockhart-final-fantasy-7-outfit-collection-23-outfits?modelVersionId=1401696
+  服なし:
+    <lora:tifa_lockhart_illust_scarxzys:0.6>, 
+    tfff7lckhrt, brown eyes, black hair, long hair, swept bangs, silver earring, jewelry, toned, 
+  服あり:
+    <lora:tifa_lockhart_illust_scarxzys:0.6>, 
+    tfff7lckhrt, brown eyes, black hair, long hair, swept bangs, silver earring, jewelry, white tank top, black undershirt, midriff, bare shoulders, toned, black gloves, elbow pad, red arm guard, single arm guard, elbow gloves, fingerless gloves, belt, black skirt, miniskirt, suspender skirt, black thighhighs, zettai ryouiki, suspenders, navel,
+
+ブラック・マジシャン・ガール:
+  LoRA1:
+    # https://civitai.com/models/1255086/yu-gi-oh-dark-magician-girl-and-cosplay-use-illuxl?modelVersionId=1415003
+    服なし:
+      dark magician girl, blonde hair, green eyes, blue wizard hat, gold choker, 
+    服あり:
+      dark magician girl, blue wizard hat, gold choker, blue short dress, pink capelet, blue vambraces, pink waist cape, blue knee boots, pentagram,
+  LoRA2: 
+    # https://civitai.com/models/1324516/dark-magician-girl?modelVersionId=1495381
+    服なし:
+      Dark Magician Girl,yellow_hair, long_hair, green_eyes, huge_breasts,
+
+アスナ:
+  # https://civitai.com/models/1230478/yuuki-asuna-sword-art-online-series-sdxl-lora?modelVersionId=1395367
+  SAO服なし:
+    anime coloring, anime screencap, official art,
+    asuna (sao), sword art online, brown eyes, brown hair,
+  アルヴヘイム服なし:
+    anime coloring, anime screencap, official art,
+    asuna (sao), sword art online, blue eyes, blue hair, elf,
+  SAO服:
+    anime coloring, anime screencap, official art,
+    asuna (sao), sword art online, brown eyes, brown hair,
+    knights of blood uniform \(sao\), detached sleeves, skirt, breastplate, armor, white thighhighs,
+  アルヴヘイム服:
+    anime coloring, anime screencap, official art,
+    asuna (sao), sword art online, blue eyes, blue hair, elf,
+    titania, fairy, ear covers, pointy ears, midriff, navel, crop top, bare shoulders, white dress, ribbon, barefoot, 
+
+けいおん澪:
+  # https://civitai.com/models/1316953/il-mio-akiyama-k-on?modelVersionId=1486670
+  服なし:
+    <lora:mio-konIL:0.8>, 
+    mio akiyama, 
+    long hair, sakuragaoka high school uniform, 
+
+星川: 
+  # https://civitai.com/models/1308538/hoshikawa-sara-nijisanji-illustrioussdxl
+  LoRA1:
+    服なし:
+      <lora:kp_HoshikawaSaraNijisanji1stCostumeIllustrious_v1_0:1.0>, 
+      HoshikawaSaraNijisanji, 
+      large breasts, heterochromia, red eye, yellow eye, blonde hair, long hair, side ponytail, 
+      bangs, ahoge, hair ornament, hair ribbon, x hair ornament,
+    服あり:
+      <lora:kp_HoshikawaSaraNijisanji1stCostumeIllustrious_v1_0:1.0>, 
+      HoshikawaSaraNijisanji
+      large breasts, heterochromia, red eye, yellow eye, blonde hair, long hair, side ponytail, 
+      bangs, ahoge, hair ornament, hair ribbon, x hair ornament,
+      white tank top, front-tie top, sleeveless, bare shoulders, collarbone, navel, midriff, short shorts,
+      aqua shorts, thigh strap, black choker, white jacket, open jacket, wide sleeves, long sleeves,
+
+
+砕蜂:
+  # https://civitai.com/models/1450757/soifon-bleach
+  LoRA1:
+    服なし:
+      <lora:soifon-anime-illustriousxl-lora-nochekaiser:0.5>,
+      soifon, sui-feng, short hair, bangs, black hair, short hair with long locks, black eyes, mature female, small breasts, anime screencap,
+    服あり1:
+      <lora:soifon-anime-illustriousxl-lora-nochekaiser:0.5>,
+      soifon, sui-feng, short hair, bangs, black hair, short hair with long locks, black eyes, mature female, small breasts, anime screencap,
+      gloves, bare shoulders, japanese clothes, elbow gloves, hakama, black hakama,
+    服あり2:
+      <lora:soifon-anime-illustriousxl-lora-nochekaiser:0.5>,
+      soifon, sui-feng, short hair, bangs, black hair, short hair with long locks, black eyes, mature female, small breasts, anime screencap,
+      gloves, japanese clothes, elbow gloves, hakama, black hakama, haori, black kimono, long sleeves, wide sleeves, black sleeves,
+  # https://civitai.com/models/1463494/soi-fonbleach
+  # LoRA2:
+  #   服なし:
+  #     <lora:Soi_Fon砕蜂BLEACH:0.5>,
+  #     Soi Fon, black_hair, short_hair, blunt bangs, grey eyes, large_breasts, hair_ornaments,
+  # https://civitai.com/models/1108141/soifon-bleach-lora-illustrious
+  # LoRA3: 
+  #   服なし:
+  #     <lora:Sfng_idxl_EliPot:0.5>,
+  #     black hair, short hair with long locks, black eyes, blunt bangs, hair rings, twin braids,
+  #   服あり:
+  #     black hair, short hair with long locks, black eyes, blunt bangs, hair rings, twin braids,
+  #     japanese clothes, sideboob, hip vent, hakama skirt, black haori,sideless outfit, white sash, haori, white panties, detached sleeves, bridal gauntlets, fundoshi, weapon, claw ring,

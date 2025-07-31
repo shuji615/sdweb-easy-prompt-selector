@@ -1,0 +1,27 @@
+ナンジャモ illusterious:
+  ポーズ指定なし 1344x768:
+    pos:
+      simple white background,
+      <lora:IonoPokemonIXL_e08:0.5>, zzIono, long hair, pink eyes, blue hair, pink hair, light blue hair, multicolored hair, bow-shaped hair, yellow jacket, sleeves past fingers, single leg pantyhose, thigh strap,
+      so happy, smile,
+    neg:
+      (censor),monochrome,blurry, lowres, watermark, detached sleeves, puffy sleeves, sleeves, long body, bad anatomy
+
+
+リーリエ pony:
+ 芝生寝っ転がり:
+    pos: 
+      1 girl, lie on grass, on stomach, elbow on ground, palm on face, looking at viewer, face focus,
+      <lora:Lillie_PonyXL:0.5>, 1lillie1, blonde hair, long hair, green eyes, small breasts, 2default2, twin braids, white sunhat, white dress, sleeveless dress, kneehighs,
+      so happy, smile
+    neg:
+      (censor),monochrome,blurry, lowres, watermark, detached sleeves, puffy sleeves, sleeves, long body, bad anatomy
+メイ illus:
+  前かがみ:
+    pos:
+      1 girl, smile, so happy, looking into viewer, bent forward, get bent over, 
+      <lora:Rosa_Illustrious:0.5>, blue_eyes, white_pupils, brown_hair, long_hair, double_bun, twintails, medium_breasts, red visor_cap, black_pantyhose, yellow_skirt, raglan_sleeves, white_shirt, blue_sleeves, 
+      radiant light background, shining, 
+    neg:
+      text, monochrome,blurry, lowres, watermark, detached sleeves, puffy sleeves, sleeves, long body, bad anatomy, 
+
